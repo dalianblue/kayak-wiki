@@ -67,3 +67,7 @@
 - RIGHTS.yaml: license定案+contact.status=authorized+resolution销案open_issue
 - 联邦包吸收资格解锁: 手搓书12章+澎逸说明书可进BY-SA联邦包
 - 待办: 授权凭证(聊天记录截图)存raw/rights/(不进git)
+
+## [2026-11-13] rights | 授权记录从简(施主定)
+- 施主与吴树升为挚友, 授权凭挚友口头全权授权, 免凭证存档
+- RIGHTS.yaml evidence字段简化为"施主与作者为挚友, 口头全权授权"
