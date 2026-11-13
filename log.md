@@ -60,3 +60,10 @@
 - site-demo/billboard/index.html: 单页公告牌, 当前指针以SVG图形呈现(机器难扫人眼秒读)
 - 三层职责: 主站(可换)←公告牌(轻,多托管)←仓库身份(永久, github.com/dalianblue/kayak-wiki)
 - 换域名流程=改billboard一处SVG文字, 全网公告牌指向不变
+
+## [2026-11-13] rights | 许可定案: 两数字源CC BY-SA 4.0(吴树升确认)
+- 授权链闭环: 施主当面/微信转告→吴先生同意BY-SA→台账升级authorized
+- 两镜像仓LICENSE.md更换为官方BY-SA 4.0文本(修复误贴BY-NC), GitHub端已推送
+- RIGHTS.yaml: license定案+contact.status=authorized+resolution销案open_issue
+- 联邦包吸收资格解锁: 手搓书12章+澎逸说明书可进BY-SA联邦包
+- 待办: 授权凭证(聊天记录截图)存raw/rights/(不进git)
