@@ -49,3 +49,8 @@
   source/mirror/snapshot_commit/sha256溯源frontmatter, 重摄取可检测漂移
 - RIGHTS.yaml新增digital_sources节: 许可冲突(BY-SA声明vs BY-NC全文)如实记录待吴树升确认
 - 演变路线站⑥/站③证据链闭合: 中国支脉+木条积层两站的一手材料就位
+
+## [2026-11-13] architecture | 地址策略补章: 仓库是身份,域名只是指针
+- RESURRECT.md新增地址策略节: 四层模型(内容sha/身份双平台/指针多并存/记忆archive.org)
+- 域名四死法对策: 续费失败→多指针; 被墙→Gitee Pages国内入口; 备案→境外Pages免疫; 注册商跑路→损失=入口之一
+- 每页页脚印仓库永久地址(mkdocs repo_url); 发布=tag+Release压缩包=第四种稳定指针
