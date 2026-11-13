@@ -22,3 +22,8 @@
 ## [2026-11-13] reframe | 定位重构: 教学图示→历史与经验档案(施主定"动作准确性非重点, 记录历史和经验")
 - SCHEMA: Domain改"历史与经验档案"; 词表加经验记录组; 新增trips/划行日志页规范(EXIF归档+自动挂潮汐/水位/天气)
 - ROADMAP: 划行日志管线升公开层主力(自有照片+自有文字, 版权几乎自动干净); 书切片退参考层; 联邦包含trips/
+
+## [2026-11-13] design | 版权升为一等元数据(施主定:版权决定公开形式)
+- SCHEMA加Rights节: 六态状态机(own/cc/book-licensed/book-orphan/book-uncleared/unknown)→公开形式自动推导, unknown缺字段=按私有处理(fail-closed)
+- RIGHTS.yaml机器可读授权台账随管线建立; 卡片schema加rights字段; 构建期许可链校验
+- 法理依据: 出版社倒闭不影响作者版权; 书内照片可能独立属于摄影师; 孤儿作品风险趋零非无主
