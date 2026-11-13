@@ -54,3 +54,9 @@
 - RESURRECT.md新增地址策略节: 四层模型(内容sha/身份双平台/指针多并存/记忆archive.org)
 - 域名四死法对策: 续费失败→多指针; 被墙→Gitee Pages国内入口; 备案→境外Pages免疫; 注册商跑路→损失=入口之一
 - 每页页脚印仓库永久地址(mkdocs repo_url); 发布=tag+Release压缩包=第四种稳定指针
+
+## [2026-11-13] architecture | 地址公告牌(billboard)机制入库
+- 模式来源: 施主举例的长寿换域名站点——跳板页图形化呈现当前指针, 抗自动扫描
+- site-demo/billboard/index.html: 单页公告牌, 当前指针以SVG图形呈现(机器难扫人眼秒读)
+- 三层职责: 主站(可换)←公告牌(轻,多托管)←仓库身份(永久, github.com/dalianblue/kayak-wiki)
+- 换域名流程=改billboard一处SVG文字, 全网公告牌指向不变
