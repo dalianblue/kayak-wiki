@@ -16,3 +16,5 @@ __pycache__/
 # 公开层小资产例外(资产纪律: 资产是内容, 必须进git; ≤500KB)
 !site-demo/docs/assets/*.jpg
 !site-demo/docs/assets/*.webp
+site-demo/site/
+site-demo/.venv/

@@ -1,18 +1,12 @@
-name: Deploy site (resurrection-ready)
+name: Verify build (private repo)
+
+# 私有仓职责=构建即验证(strict); Pages镜像部署属未来公开仓
+# 产物以artifact上传, 每次push可下载完整站点包
 
 on:
   push:
     branches: [main]
   workflow_dispatch:
-
-permissions:
-  contents: read
-  pages: write
-  id-token: write
-
-concurrency:
-  group: pages
-  cancel-in-progress: true
 
 jobs:
   build:
@@ -26,16 +20,8 @@ jobs:
         working-directory: site-demo
       - run: mkdocs build --strict
         working-directory: site-demo
-      - uses: actions/upload-pages-artifact@v3
+      - uses: actions/upload-artifact@v4
         with:
+          name: site-${{ github.sha }}
           path: site-demo/site
-
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - id: deployment
-        uses: actions/deploy-pages@v4
+          retention-days: 30
