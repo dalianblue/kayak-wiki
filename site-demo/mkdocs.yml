@@ -1,6 +1,6 @@
 site_name: 皮划艇知识库
 site_description: 皮划艇历史与经验档案——新手入门、划行日志、船型谱系
-site_url: ""
+site_url: https://fxmlab.top/kayak/
 
 theme:
   name: material

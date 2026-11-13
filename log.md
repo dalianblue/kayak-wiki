@@ -84,3 +84,12 @@
 - 资产: bow-comparison-ai.jpg(205KB JPEG)挂上演变站; 候选3张留raw/assets/candidates/(不进git)
 - RIGHTS.yaml新增generated_assets节: AI生成+自有事实源+人工验收=own口径
 - 教训: /models列表不含新开模型, 直接按模型名试; sips不支持webp输出(降级jpeg); vision_analyze通道不支持图片输入(验收靠施主人眼)
+
+## [2026-11-13] deploy | 公网上线 fxmlab.top/kayak/
+- 服务器: aliyun-book(123.56.29.111, 宝塔+nginx 1.30.4, PHP登录应用共存, HTTPS证书在位)
+- 部署: mkdocs --strict本地构建→tar管道→/www/wwwroot/kayak/(3.6MB静态)
+- 接入: 宝塔extension include点(vhost/nginx/extension/fxmlab.top/kayak.conf)——不改主vhost, 回滚=删文件
+- 备份: fxmlab.top.conf.bak-1113; vhost原配置未动一行
+- 验证: https公网4路径全200(首页/evolution/roll-list/图资产)
+- site_url定稿 https://fxmlab.top/kayak/; 小强架构三层指针之第一层点亮
+- 教训: nginx location块不能include在server{}外的位置; 宝塔环境走extension/*.conf自动include点最稳
