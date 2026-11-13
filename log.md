@@ -93,3 +93,9 @@
 - 验证: https公网4路径全200(首页/evolution/roll-list/图资产)
 - site_url定稿 https://fxmlab.top/kayak/; 小强架构三层指针之第一层点亮
 - 教训: nginx location块不能include在server{}外的位置; 宝塔环境走extension/*.conf自动include点最稳
+
+## [2026-11-13] outreach | 外联邮件#001起草: Bob Shaver(baidarka建造博文)
+- 背景: 演变站⑤b活标本, 阿留申分叉艏建造照片为中文世界空白素材
+- 模板: pipeline/templates/outreach-001-bob-shaver.md(英文正文+中文对照+使用说明)
+- 承诺框架: 非商业/逐张署名+回链/许可遵作者指定/上线前审阅/随时撤下
+- 老派户外人定位: 信中呼应其12年教学与山地救援生涯(真诚非商务腔)
