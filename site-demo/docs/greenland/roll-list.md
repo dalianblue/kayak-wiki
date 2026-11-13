@@ -38,5 +38,5 @@
 ## 相关
 
 - [历史与构造](index.md)
-- [演变路线](../../evolution/index.md)
-- [划行日志](../../blog/index.md)——实测回填都在日志里
+- [演变路线](../evolution/index.md)
+- [划行日志](../blog/index.md)——实测回填都在日志里

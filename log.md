@@ -33,3 +33,11 @@
 - 主线②格陵兰皮划艇历史与技巧推广: 狩猎文化/构造/滚法体系/当代复兴
 - SCHEMA Domain与边界改写; ROADMAP决策记录追加; Eastern Arctic Kayaks升全库中心书
 - demo站同步: 新增evolution/+greenland/板块, 移除泛知识库; 演变表标出"英国革命站待补书源"
+
+## [2026-11-13] architecture | 打不死的小强架构定盘(施主定: 网站会死,git+许可不会)
+- ROADMAP新增架构原则节: 公开仓=唯一事实源/一键复活/双活镜像/构建即验证(strict)/
+  许可即永生(CC BY-SA+MIT)/域名解耦/资产体积纪律/发布=tag/(远期)archive.org三级冗余
+- site-demo/RESURRECT.md=复活指南(路径A fork+Pages零服务器/B本地构建任意托管/C镜像接力)
+- .github/workflows/deploy.yml=CI(push即构建部署, strict验收)
+- 死亡演习通过: mkdocs build --strict抓出roll-list两处断链→修复→全绿
+- 演变路线补站⑤b北美西海岸复兴(Harvey Golden/Cape Falcon, 施主点出最精华在加拿大西海岸)
