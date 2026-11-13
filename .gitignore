@@ -1,0 +1,15 @@
+# 大文件铁律(1016宕机复盘): 二进制/大文件一律不进git
+raw/assets/*
+!raw/assets/.gitkeep
+*.pdf
+*.PDF
+*.epub
+*.webp
+*.jpg
+*.jpeg
+*.png
+*.mp4
+__pycache__/
+.venv/
+*.pyc
+.DS_Store
