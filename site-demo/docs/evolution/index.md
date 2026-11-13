@@ -17,7 +17,7 @@
 
 ## 各站导读（正式版展开为独立页）
 
-![格陵兰式与阿留申式船型对比](assets/bow-comparison-ai.jpg)
+![格陵兰式与阿留申式船型对比](../assets/bow-comparison-ai.jpg)
 
 *AI 生成示意图（gpt-image-2.6-flare，2026-11，经人工验收）：上=格陵兰式 qajaq（长悬挑上翘艏/低甲板），下=阿留申式 baidarka（短平直艏/分叉双艏）——船头特征即两母型的辨识钥匙。*
 
