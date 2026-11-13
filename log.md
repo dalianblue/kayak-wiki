@@ -27,3 +27,9 @@
 - SCHEMA加Rights节: 六态状态机(own/cc/book-licensed/book-orphan/book-uncleared/unknown)→公开形式自动推导, unknown缺字段=按私有处理(fail-closed)
 - RIGHTS.yaml机器可读授权台账随管线建立; 卡片schema加rights字段; 构建期许可链校验
 - 法理依据: 出版社倒闭不影响作者版权; 书内照片可能独立属于摄影师; 孤儿作品风险趋零非无主
+
+## [2026-11-13] decision | 内容二次定位: 垂直两主线(施主定)
+- 主线①皮划艇技术演变路线展示: qajaq→折叠艇→英国海划革命→现代艇→格陵兰复兴→中国支脉
+- 主线②格陵兰皮划艇历史与技巧推广: 狩猎文化/构造/滚法体系/当代复兴
+- SCHEMA Domain与边界改写; ROADMAP决策记录追加; Eastern Arctic Kayaks升全库中心书
+- demo站同步: 新增evolution/+greenland/板块, 移除泛知识库; 演变表标出"英国革命站待补书源"

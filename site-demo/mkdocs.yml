@@ -1,0 +1,39 @@
+site_name: 皮划艇知识库
+site_description: 皮划艇历史与经验档案——新手入门、划行日志、船型谱系
+site_url: ""
+
+theme:
+  name: material
+  language: zh
+  palette:
+    - scheme: default
+      primary: deep blue
+      toggle: {icon: material/weather-sunny, name: 切换暗色}
+    - scheme: slate
+      primary: deep blue
+      toggle: {icon: material/weather-night, name: 切换亮色}
+  features:
+    - navigation.tabs
+    - navigation.top
+    - search.highlight
+    - content.code.copy
+
+plugins:
+  - search
+  - blog:
+      blog_toc: true
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - tables
+  - admonition
+
+nav:
+  - 首页: index.md
+  - 演变路线: evolution/index.md
+  - 格陵兰专栏:
+      - 历史与构造: greenland/index.md
+      - 滚法入门: greenland/roll-list.md
+  - 划行日志: blog/index.md
+  - 关于: about.md
