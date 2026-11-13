@@ -35,5 +35,9 @@ nav:
   - 格陵兰专栏:
       - 历史与构造: greenland/index.md
       - 滚法入门: greenland/roll-list.md
+  - 建造技术:
+      - 设计要素: build/design-factors.md
+      - 型线图: build/lines-plan.md
+      - 放样: build/lofting.md
   - 划行日志: blog/index.md
   - 关于: about.md
