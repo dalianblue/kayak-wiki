@@ -1,0 +1,409 @@
+# ============================================================
+# RIGHTS.yaml — kayak-wiki 授权台账（版权=一等元数据，1113施主定）
+# 首诊: 2026-11-13 | 32书全量 | 卒年等事实均带 evidence 来源
+#
+# 口径:
+#   rights 六态: own / cc / book-licensed / book-orphan /
+#                book-uncleared / unknown(fail-closed按私有)
+#   公有时点(中国法)=最晚在世作者卒年+50(至该年12月31日); 合著取最晚卒年
+#   美国法独立(1929前出版=已PD; 其余多数按出版+95年)——属地问题,暂只记不算
+#   翻译作品: 译者另有独立版权线, 原作者PD≠译本PD(见各条 notes)
+#   书内照片: 版权可能独立属于摄影师——每书版权页单独核查, 文/图两条线
+#   数据契约: 模型/脚本重跑不得回退本台账的人工结论(GPT-TOP3-3)
+#   outreach_priority: 1=核心书+在世+路径短; 2=核心/在册但次要; 3=参考层
+# ============================================================
+
+books:
+  117-days-adrift:
+    title: 117 Days Adrift
+    author: Maurice Bailey & Maralyn Bailey
+    author_status: deceased-2018(最后在世者Maurice, 2018-12; Maralyn 2002)
+    publisher: A&C Black → Bloomsbury 在营
+    pub_year: 1974
+    rights: book-uncleared
+    scope: reference            # 帆船救生筏漂流(非皮划艇), 海上求生参考
+    file: "PDF/传记&冒险/Maurice Bailey, Maralyn Bailey - 117 Days Adrift-Nautical Books an imprint of A&C Black (Publishers) Ltd (1974).pdf"
+    pd_cn: 2068-12-31
+    contact: {status: not-contacted}
+    evidence: [en.wikipedia.org/wiki/Maurice_and_Maralyn_Bailey, thetimes.com 讣告]
+    notes: 继承人未知; 书内Maralyn手绘/照片独立线
+
+  a-long-trek-home:
+    title: A Long Trek Home
+    author: Erin McKittrick
+    author_status: alive        # 2026-11无讣告记录
+    publisher: Mountaineers Books
+    rights: book-uncleared
+    scope: core                 # 阿拉斯加岸线海划+packraft
+    file: "PDF/传记&冒险/Long Trek Home, A - Erin McKittrick.pdf"
+    contact: {status: not-contacted}
+    outreach_priority: 2
+
+  adrift-callahan:
+    title: "Adrift: Seventy-six Days Lost at Sea"
+    author: Steven Callahan
+    author_status: alive
+    publisher: Houghton Mifflin / Random House 在营
+    pub_year: 1986
+    rights: book-uncleared
+    scope: core                 # 海上求生+救生筏, 安全救援交叉对照锚点书
+    file: "PDF/传记&冒险/Adrift - Steven Callahan.pdf"
+    contact: {status: not-contacted}
+    outreach_priority: 1        # 在世+圈内活跃, 授权可行性最高
+    notes: 救生筏求生细节与Lindemann/Bailey三书交叉对照
+
+  adrift-hunter:
+    title: "Adrift: The Story of Twenty Days on Raft in the South Atlantic"
+    author: J. H. Hunter
+    author_status: unknown      # SIM传教士作家, 1940-50年代活跃, 卒年未查实
+    publisher: 原版约1940s Zondervan; 此本=Forgotten Books影印
+    rights: book-uncleared
+    scope: reference
+    file: "PDF/传记&冒险/Author_ Hunter, J. H. - Adrift_ The Story of Twenty Days on Raft in the South Atlantic.pdf"
+    contact: {status: not-contacted}
+    outreach_priority: 2        # 研究型: 若原刊≤1929→美国PD直接翻盘(待查原版年份)
+    notes: 唯一可能免授权公开的候选; 查Zondervan原始出版年即可裁决
+
+  adrift-on-the-nile:
+    title: Adrift on the Nile
+    author: Naguib Mahfouz (译本)
+    author_status: deceased-2006
+    publisher: Anchor (Knopf Doubleday) 在营; 译者另有独立版权
+    pub_year: 1994              # Anchor版
+    rights: book-uncleared
+    scope: out-of-scope         # 埃及小说, 纯书名撞词, 不入知识域
+    file: "PDF/传记&冒险/Naguib Mahfouz - Adrift on the Nile-Anchor (1994).pdf"
+    pd_cn: 2056-12-31           # 原作者线; 译本线独立且更长
+    contact: {status: none-planned}
+    notes: 建议出域, 不投入授权成本
+
+  all-the-way-round:
+    title: All the Way Round
+    author: Stuart Trueman
+    author_status: alive
+    publisher: —
+    rights: book-uncleared
+    scope: core                 # 环澳/环不列颠
+    file: "PDF/传记&冒险/All the Way Round - Stuart Trueman.pdf"
+    contact: {status: not-contacted}
+    outreach_priority: 2
+
+  alone-at-sea:
+    title: Alone at Sea
+    author: Hannes Lindemann
+    author_status: deceased-2015
+    publisher: Random House 1958 → Penguin Random House 在营
+    pub_year: 1958
+    rights: book-uncleared
+    scope: core                 # 折叠舟+独木舟两次横渡大西洋, 历史档案主力
+    file: "PDF/传记&冒险/Hannes Lindemann - Alone at Sea. A Doctor's Survival Experiments of Two Atlantic Crossings in a Dugout Canoe and a Folding Kayak-Random House (1958).pdf"
+    pd_cn: 2065-12-31
+    contact: {status: not-contacted}
+    evidence: [en.wikipedia.org/wiki/Hannes_Lindemann, yacht.de讣闻]
+    notes: 后期版权由Polner(德国小社)再版——继承人授权线可能经Polner Verlag
+
+  amazon-woman:
+    title: Amazon Woman
+    author: Darcy Gaechter
+    author_status: alive
+    publisher: —
+    pub_year: 2019
+    rights: book-uncleared
+    scope: core                 # 首位女性独划亚马逊全程
+    file: "PDF/传记&冒险/Amazon Woman - Darcy Gaechter.pdf"
+    contact: {status: not-contacted}
+    outreach_priority: 1
+
+  around-the-world-in-a-dugout-canoe:
+    title: Around the World in a Dugout Canoe
+    author: John M. MacFarlane & Lynn J. Salmon
+    author_status: alive        # 2026-11无讣告记录
+    publisher: Harbour Publishing 在营
+    pub_year: 2019
+    rights: book-uncleared
+    scope: core                 # Voss/Tilikum独木舟环球史, 船型史参考
+    file: "PDF/传记&冒险/Around the World in a Dugout Canoe - John M. MacFarlane & Lynn J. Salmon.pdf"
+    contact: {status: not-contacted}
+    outreach_priority: 1        # 在营小社, 决策链短
+    evidence: [harbourpublishing.com, thebcreview.ca 2019书评]
+
+  basic-illustrated-camping:
+    title: Basic Illustrated Camping
+    author: Cliff Jacobson
+    author_status: alive
+    publisher: Falcon Guides (Globe Pequot) 在营
+    rights: book-uncleared
+    scope: adjacent             # 露营, 划水活动邻域
+    file: "PDF/露营/Basic Illustrated Camping - Cliff Jacobson.pdf"
+    contact: {status: not-contacted}
+    outreach_priority: 2
+
+  campings-top-secrets-2013:
+    title: "Camping's Top Secrets (2013, Lexicon of Expert Camping Tips)"
+    author: Cliff Jacobson
+    author_status: alive
+    publisher: FalconGuides 在营
+    pub_year: 2013
+    rights: book-uncleared
+    scope: adjacent
+    file: "PDF/露营/Cliff Jacobson - Camping's Top Secrets_ A Lexicon of Expert Camping Tips-FalconGuides (2013).pdf"
+    contact: {status: not-contacted}
+    outreach_priority: 2
+    notes: 与2022版同书两版, 授权可一并谈
+
+  campings-top-secrets-2022:
+    title: "Camping's Top Secrets (2022, Lexicon of Modern Bushcraft)"
+    author: Cliff Jacobson
+    author_status: alive
+    publisher: Falcon Guides 在营
+    pub_year: 2022
+    rights: book-uncleared
+    scope: adjacent
+    file: "PDF/露营/Cliff Jacobson - Camping's Top Secrets_ A Lexicon of Modern Bushcraft-Falcon Guides (2022).pdf"
+    contact: {status: not-contacted}
+    outreach_priority: 2
+
+  crossing-the-ditch:
+    title: Crossing the Ditch
+    author: James Castrission (与Justin Jones合著)
+    author_status: alive
+    publisher: —
+    rights: book-uncleared
+    scope: core                 # 塔斯曼海双划第一
+    file: "PDF/传记&冒险/Crossing the Ditch - James Castrission.pdf"
+    contact: {status: not-contacted}
+    outreach_priority: 1
+    notes: 与Relentless/Solo构成塔斯曼三部曲, 联动条目
+
+  dangerous-games:
+    title: Dangerous Games
+    author: Andrew Todhunter
+    author_status: alive        # 2026-11无讣告记录
+    publisher: —
+    rights: book-uncleared
+    scope: reference            # 题材待读(极限运动?)
+    file: "PDF/传记&冒险/Dangerous Games - Andrew Todhunter.pdf"
+    contact: {status: not-contacted}
+    outreach_priority: 3
+
+  eastern-arctic-kayaks:
+    title: "Eastern Arctic Kayaks: History, Design, Technique"
+    author: John D. Heath & E. Arima
+    author_status: Heath deceased-2003-07; Arima unknown(合著保护期锚点)
+    publisher: University of Alaska Press 在营
+    pub_year: 2004
+    rights: book-uncleared
+    scope: core                 # 东北极船型谱系+设计+技法, 历史档案镇库之书
+    file: "PDF/John Heath - Eastern Arctic Kayaks_ History, Design, Technique-University of Alaska Press (2004).pdf"
+    pd_cn: null                 # 锚点=Arima, 卒年未查实
+    contact: {status: not-contacted}
+    outreach_priority: 1        # 大学出版社permissions路径最规范
+    evidence: ["书前言原文'John Heath died in July 2003'(paulcaffyn.co.nz托管PDF)", "Arima 2004仍活跃于加文明博物馆(Whitridge 2025引用)"]
+    notes: Heath卒于出版前一年; 版权经继承人+U Alaska Press; 照片多为档案馆藏, 摄影线复杂
+
+  encounters-from-a-kayak:
+    title: Encounters from a Kayak
+    author: Nigel Foster
+    author_status: alive        # 皮划艇设计/教学名人
+    publisher: —
+    rights: book-uncleared
+    scope: core
+    file: "PDF/传记&冒险/Encounters from a Kayak - Nigel Foster.pdf"
+    contact: {status: not-contacted}
+    outreach_priority: 1        # 同作者两书在架, 一信双授权
+
+  fearless:
+    title: "Fearless: One Woman, One Kayak, One Continent"
+    author: Joe Glickman (写Freya Hoffmeister环澳)
+    author_status: alive
+    publisher: —
+    rights: book-uncleared
+    scope: core                 # 环澳史诗(传记体)
+    file: "PDF/传记&冒险/Fearless_ One Woman, One Kayak, One Continent - Joe Glickman.pdf"
+    contact: {status: not-contacted}
+    outreach_priority: 2
+    notes: 版权线=作者Glickman; 传主Freya的肖像/照片另线
+
+  freshwater-saga:
+    title: "Freshwater Saga: Memoirs of a Lifetime of Wilderness Canoeing"
+    author: Eric Morse
+    author_status: deceased-1986   # 置信度medium: Che-Mun讣闻索引+生涯时间线, 待核
+    publisher: University of Toronto Press 在营
+    pub_year: 1987
+    rights: book-uncleared
+    scope: reference            # 加拿大荒野独木舟回忆录
+    file: "PDF/传记&冒险/Eric Morse - Freshwater Saga_ Memoirs of a Lifetime of Wilderness Canoeing-University of Toronto Press (1987).pdf"
+    pd_cn: 2036-12-31           # 全库最近公有时点
+    contact: {status: not-contacted}
+    evidence: [ottertooth.com Che-Mun索引(obit.45), fyi.org.nz图书记录"1904-"]
+    notes: 台账追踪项——2036自动PD; 卒年1986建议图书馆渠道复核
+
+  from-raft-to-raft:
+    title: From Raft to Raft
+    author: Bengt Danielsson
+    author_status: deceased-1997
+    publisher: —
+    pub_year: 1960              # 英译版
+    rights: book-uncleared
+    scope: reference            # Kon-Tiki队员的筏航后续, 波利尼西亚漂流论
+    file: "PDF/传记&冒险/From Raft to Raft - Bengt Danielsson.pdf"
+    pd_cn: 2047-12-31
+    contact: {status: not-contacted}
+    notes: 译者(英译)另有独立版权线
+
+  inside:
+    title: "Inside: One Woman's Journey Through the Inside Passage"
+    author: Susan Marie Conrad
+    author_status: alive
+    publisher: —
+    rights: book-uncleared
+    scope: core                 # Inside Passage独划
+    file: "PDF/传记&冒险/Inside_ One Woman's Journey Through the Inside Passage - Susan Marie Conrad.pdf"
+    contact: {status: not-contacted}
+    outreach_priority: 2
+
+  junk-raft:
+    title: Junk Raft
+    author: Marcus Eriksen
+    author_status: alive        # 5 Gyres创始人
+    publisher: —
+    rights: book-uncleared
+    scope: reference            # 塑料污染议题筏航
+    file: "PDF/传记&冒险/Junk Raft - Marcus Eriksen.pdf"
+    contact: {status: not-contacted}
+    outreach_priority: 2
+
+  kon-tiki:
+    title: The Kon-Tiki Expedition (英译本)
+    author: Thor Heyerdahl
+    author_status: deceased-2002
+    publisher: —
+    pub_year: 1950              # 英译版
+    rights: book-uncleared
+    scope: reference            # 筏航史经典(非皮划艇)
+    file: "PDF/传记&冒险/Kon-Tiki - Thor Heyerdahl.pdf"
+    pd_cn: 2052-12-31           # 作者线; 挪威原文/英译线各自独立
+    contact: {status: not-contacted}
+
+  let-my-people-go-surfing:
+    title: Let My People Go Surfing
+    author: Yvon Chouinard
+    author_status: alive
+    publisher: Penguin 在营
+    pub_year: 2005
+    rights: book-uncleared
+    scope: reference            # Patagonia创始人回忆录, 划水邻域
+    file: "PDF/传记&冒险/Let My People Go Surfing_ The Education of a Reluctant Businessman - Yvon Chouinard.pdf"
+    contact: {status: not-contacted}
+    outreach_priority: 2
+    notes: Patagonia文化开放度较高, 品牌授权窗口存在
+
+  man-up-and-paddle:
+    title: Man Up and Paddle!
+    author: Cathal McCosker
+    author_status: alive        # 2026-11无讣告记录
+    publisher: —
+    rights: book-uncleared
+    scope: core                 # 爱尔兰环划
+    file: "PDF/传记&冒险/Man Up and Paddle! - Cathal McCosker.pdf"
+    contact: {status: not-contacted}
+    outreach_priority: 2
+
+  my-paddle-to-the-sea:
+    title: My Paddle to the Sea
+    author: John Lane
+    author_status: alive
+    publisher: —
+    rights: book-uncleared
+    scope: reference            # 美国东南水道慢旅行
+    file: "PDF/传记&冒险/My Paddle to the Sea - John Lane.pdf"
+    contact: {status: not-contacted}
+    outreach_priority: 2
+
+  no-barriers:
+    title: No Barriers
+    author: Erik Weihenmayer
+    author_status: alive
+    publisher: —
+    rights: book-uncleared
+    scope: reference            # 盲人探险家(登山线), 划水仅一环
+    file: "PDF/传记&冒险/No Barriers - Erik Weihenmayer.pdf"
+    contact: {status: not-contacted}
+    outreach_priority: 3
+
+  on-polar-tides:
+    title: On Polar Tides
+    author: Nigel Foster
+    author_status: alive
+    publisher: Falcon Guides 在营
+    pub_year: 2016
+    rights: book-uncleared
+    scope: core                 # 北拉布拉多岸线生存划行
+    file: "PDF/传记&冒险/On polar tides_ paddling and surviving the coast of Northern Labrador-Falcon Guides (2016)-Nigel Foster.pdf"
+    contact: {status: not-contacted}
+    outreach_priority: 1        # 与encounters-from-a-kayak同作者联动
+
+  pacific-alone:
+    title: The Pacific Alone
+    author: Dave Shively
+    author_status: alive
+    publisher: —
+    rights: book-uncleared
+    scope: core                 # Ed Gillet圣迭戈→夏威夷2400英里独划
+    file: "PDF/传记&冒险/Pacific Alone, The - Dave Shively.pdf"
+    contact: {status: not-contacted}
+    outreach_priority: 2
+
+  relentless:
+    title: "Relentless: A Story of Grit and Endurance from the First Person to Kayak the Tasman Solo"
+    author: Scott Donaldson
+    author_status: alive
+    publisher: —
+    rights: book-uncleared
+    scope: core                 # 塔斯曼独划第一人
+    file: "PDF/传记&冒险/Relentless_ A Story of Grit and Endurance from the First Person to Kayak the Tasman Solo - Donaldson, Scott.pdf"
+    contact: {status: not-contacted}
+    outreach_priority: 2
+    notes: 文件名署名Donaldson, Scott——本人自述或第三方撰传待核(影响授权对象)
+
+  solo:
+    title: Solo
+    author: Vicki McAuley
+    author_status: alive        # 2026-11无讣告记录(Andrew McAuley遗孀执笔)
+    publisher: —
+    rights: book-uncleared
+    scope: core                 # Andrew McAuley塔斯曼绝笔, 纪录片SolotheMovie联动
+    file: "PDF/传记&冒险/Solo - Vicki McAuley.pdf"
+    contact: {status: not-contacted}
+    outreach_priority: 2
+
+  up-the-creek:
+    title: Up the Creek Without a Paddle
+    author: Tammy Cohen
+    author_status: alive
+    publisher: —
+    rights: book-uncleared
+    scope: reference            # Darwin独木舟骗局纪实(书名含paddle纯修辞)
+    file: "PDF/传记&冒险/Up the Creek Without a Paddle--The True Story of John and Anne Darwin - Tammy Cohen.pdf"
+    contact: {status: not-contacted}
+    outreach_priority: 3
+
+  where-the-crawdads-sing:
+    title: Where the Crawdads Sing
+    author: Delia Owens
+    author_status: alive
+    publisher: Penguin 在营
+    pub_year: 2018
+    rights: book-uncleared
+    scope: out-of-scope         # 小说, 不入知识域
+    file: "PDF/传记&冒险/Where the Crawdads Sing - Delia Owens.pdf"
+    contact: {status: none-planned}
+    notes: 建议出域
+
+# ------------------------------------------------------------
+# 汇总(2026-11-13): 32书 = 0本今日可公开(全部book-uncleared起步)
+#   在世作者约21本 → book-licensed主攻(P1×9)
+#   已故作者6本 → 公有倒计时2036/2047/2052/2056/2065/2068
+#   待查1本(adrift-hunter原版年) / 出域2本(crawdads, nile)
+#   出版社全数在营 → 无"出版社倒闭型"孤儿作品
+# ------------------------------------------------------------
