@@ -41,3 +41,11 @@
 - .github/workflows/deploy.yml=CI(push即构建部署, strict验收)
 - 死亡演习通过: mkdocs build --strict抓出roll-list两处断链→修复→全绿
 - 演变路线补站⑤b北美西海岸复兴(Harvey Golden/Cape Falcon, 施主点出最精华在加拿大西海岸)
+
+## [2026-11-13] ingest | Gitee两仓镜像+摄入(小强架构第一战)
+- 建GitHub镜像仓(公开): dalianblue/pengyikayak@5feb118 + dalianblue/how-to-hand-build-a-kayak@5cf83fd
+  —— 内容从此Gitee/GitHub双活, 图片(245MB)留镜像仓, 主仓守大文件铁律
+- 文字层摄入raw/books/: pengyi-manual/(9文件) + hand-build-kayak/(15文件), 均带
+  source/mirror/snapshot_commit/sha256溯源frontmatter, 重摄取可检测漂移
+- RIGHTS.yaml新增digital_sources节: 许可冲突(BY-SA声明vs BY-NC全文)如实记录待吴树升确认
+- 演变路线站⑥/站③证据链闭合: 中国支脉+木条积层两站的一手材料就位

@@ -407,3 +407,34 @@ books:
 #   待查1本(adrift-hunter原版年) / 出域2本(crawdads, nile)
 #   出版社全数在营 → 无"出版社倒闭型"孤儿作品
 # ------------------------------------------------------------
+# ---------- 数字原生源（1113摄入, gitee镜像→GitHub双活） ----------
+
+digital_sources:
+  pengyi-manual:
+    title: 澎逸羽船组装说明书（含FAQ/安装技巧/改装指南/创始人故事）
+    author: 吴树升（苏州澎逸运动用品有限公司）
+    author_status: alive          # 厂内联系人; 电话/邮箱在README内
+    source: gitee.com/feathercraft/pengyikayak
+    mirror: https://github.com/dalianblue/pengyikayak
+    snapshot_commit: 5feb118      # 2026-11-13镜像时点
+    ingested: 2026-11-13
+    rights: cc
+    license: CC BY-NC 4.0 (LICENSE.md全文)   # 注: README说BY-SA, LICENSE为BY-NC, 冲突待作者确认
+    scope: core                   # 演变站⑥中国支脉一手材料
+    contact: {status: not-contacted}
+    notes: 9个md已入raw/books/pengyi-manual/(sha256溯源); 图片留镜像仓不进主仓
+
+  hand-build-kayak:
+    title: 艺术级皮划艇建造技术（12章, 吴树升著）
+    author: 吴树升
+    author_status: alive
+    source: gitee.com/feathercraft/how-to-hand-build-a-kayak
+    mirror: https://github.com/dalianblue/how-to-hand-build-a-kayak
+    snapshot_commit: 5cf83fd
+    ingested: 2026-11-13
+    rights: cc
+    license: 待确认              # README声明BY-SA vs LICENSE全文BY-NC——需作者一句话裁决
+    scope: core                   # 演变站③木条积层+建造教学主力
+    contact: {status: not-contacted}
+    notes: 15个md已入raw/books/hand-build-kayak/; 388张图留镜像仓; 版权声明.md原样入库
+    open_issue: 许可冲突已记录, 确认后升级rights并解锁联邦包吸收资格
