@@ -1,11 +1,13 @@
 # 皮划艇知识库 Index
 
 > 内容目录。每页一行：wikilink + 一句话摘要。开工先读此页找相关页面。
-> Last updated: 2026-11-13 | Total pages: 0
+> Last updated: 2026-11-13 | Total pages: 3
 
 ## Concepts
 
-（暂无——Phase 2 首书试跑后填充）
+- [[design-factors]] — 皮划艇设计要素：格陵兰/阿留申两母型、稳定性物理、船身速度、菱形系数、操控vs循迹（源：手搓书第1章）
+- [[lines-plan]] — 型线图：三基准面/三组截交线/型值表体系，船体曲面 的工程语言（源：手搓书第2章）
+- [[lofting]] — 放样：型值表→1:1形板，手工钉带法与CAD激光切割法（源：手搓书第4章）
 
 ## Comparisons
 
