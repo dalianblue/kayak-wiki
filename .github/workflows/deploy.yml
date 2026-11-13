@@ -23,6 +23,7 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install -r requirements.txt
+        working-directory: site-demo
       - run: mkdocs build --strict
         working-directory: site-demo
       - uses: actions/upload-pages-artifact@v3
