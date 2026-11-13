@@ -78,3 +78,9 @@
 - lofting: 型值表→形板(钉带法/CAD激光法/龙骨孔原则)
 - SCHEMA词表新增建造组(建造/型线图/放样/木条工艺); index登记3页
 - 出站链接均≥2, 出处标注到手搓书具体章节
+
+## [2026-11-13] asset | 首张AI生成资产上岗(事实重绘管线试点)
+- 模型: gpt-image-2.6-flare(施主开通权限); 流程: 事实约束prompt→生成→施主视觉验收→迭代(艉部分叉修正)→过审
+- 资产: bow-comparison-ai.jpg(205KB JPEG)挂上演变站; 候选3张留raw/assets/candidates/(不进git)
+- RIGHTS.yaml新增generated_assets节: AI生成+自有事实源+人工验收=own口径
+- 教训: /models列表不含新开模型, 直接按模型名试; sips不支持webp输出(降级jpeg); vision_analyze通道不支持图片输入(验收靠施主人眼)

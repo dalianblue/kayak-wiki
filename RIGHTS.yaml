@@ -438,3 +438,15 @@ digital_sources:
     contact: {status: authorized, date: 2026-11-13, channel: 施主与作者为挚友, 口头全权授权}
     notes: 15个md已入raw/books/hand-build-kayak/; 388张图留镜像仓; 版权声明.md原样入库
     resolution: 原README(BY-SA)为准确意图, LICENSE.md(BY-NC)系整理时误贴——2026-11-13更换官方BY-SA文本, 冲突销案; 联邦包吸收资格解锁
+
+# ---------- 自产数字资产（AI生成, 人工验收） ----------
+
+generated_assets:
+  bow-comparison-ai:
+    file: site-demo/docs/assets/bow-comparison-ai.jpg
+    origin: AI生成(gpt-image-2.6-flare, openai-proxy.org)
+    prompt_facts: 事实约束自手搓书第1章(格陵兰=长悬挑上翘艏/低甲板; 阿留申=短平直艏/分叉双艏)
+    review: 2026-11-13施主验收("90%不错"→修正艉部分叉→2号过审)
+    rights: own            # AI生成+事实要点来自自有授权源+人工验收=自有资产口径
+    license: CC BY-SA 4.0  # 随联邦包
+    candidates: raw/assets/candidates/kayaks-flare*.png(不进git, 3张留档)
