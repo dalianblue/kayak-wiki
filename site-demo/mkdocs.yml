@@ -55,5 +55,14 @@ nav:
       - 第10章 船体和甲板装配: build/handbuild/ch10.md
       - 第11章 船桨制作: build/handbuild/ch11.md
       - 第12章 维护和修理: build/handbuild/ch12.md
+  - 澎逸羽船（吴树升·CC BY-SA）:
+      - 产品总览: build/pengyi/index.md
+      - 组装说明书: build/pengyi/manual.md
+      - 安装技巧: build/pengyi/install-tips.md
+      - 常见问题 FAQ: build/pengyi/faq.md
+      - 座椅改装指南: build/pengyi/seat-mod.md
+      - 脚蹬改装指南: build/pengyi/footrest-mod.md
+      - 拾遗之羽船诞生: build/pengyi/origin-story.md
+      - 吴树升简介: build/pengyi/author.md
   - 划行日志: blog/index.md
   - 关于: about.md
