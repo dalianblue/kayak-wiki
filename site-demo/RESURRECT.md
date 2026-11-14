@@ -69,3 +69,7 @@ mkdocs build --strict             # 产物在 site/，也是本仓 CI 的验收�
 ## 本架构的原则（为什么它打不死）
 
 公开仓=唯一事实源；网站只是构建产物。产物可丢，源不可丢。
+
+## 域名指针（1114 更新）
+- 现役指针: https://fxmlab.top/kayak/ （已备案主体 fxmlab.top 的子路径）
+- 未来指针: **kayakpedia.cn**（施主 1114 购入, 备案中——禁解析纪律, 备案号下来后按 ops/kayakpedia-cutover-runbook.md 切换, vhost 预备件 /www/server/panel/vhost/nginx/kayakpedia.cn.conf.pending）
