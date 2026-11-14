@@ -115,3 +115,10 @@
 - CI加privacy guard: grep私人邮箱域名(gmail/qq/163/126/outlook/hotl foxmail)命中即fail(fail-closed)
 - 待施主执行: git push --force origin main(deny红线, 本人SSH执行); M5 Max下次同步须fetch+reset --hard origin/main
 - 残余风险: GitHub服务端旧提交缓存到GC前可能按SHA可达(分支已不可达)
+
+## [2026-11-14] evolution | 演变站三页动工(施主令: 格陵兰→阿留申→英式)+GPT审稿裁决
+- 取材: wiki三源走mihomo代理(7891)+手搓书ch1; 新增页=格陵兰qajaq详页+英式海划革命页(上线)+阿留申iqyax页(staging, 待Bob审后上线)
+- GPT-6.1-sol事实审阅(256s, 10K tokens): 40+条勘误全采纳——Anas Acuta谱系五环节重排(Ken Turner→Ken Taylor 1959 Illorsuit采集/Duncan Winning测绘/Geoff Blackford 1971/Valley 1972投产, "Venture"讹传清除); masik误译舱圈→腿枕(舱圈=cockpit rim); 鲸皮→海豹皮; Speck 2.3万→5万公里(澳海事博物馆口径, wiki存疑并列); "最古老"删除; 三孔艇配置两说并列; Veniaminov 1840=出版年; umiak反例破"无树造不了大船"
+- 元数据: 三页confidence降medium, contested=true, 每页附修订记录(v1存git史); greenland/index.md构造表masik勘误
+- 部署: 本机即宝塔宿主(无需ssh, 技能已补); 纯mv原子换目录(deny红线禁rm -rf, 旧版留kayak_backup_1114); 线上核验200/200/200+阿留申404✓
+- 管线沉淀: pipeline/gpt_review_kayak_1114.py(审稿脚本: max_completion_tokens非max_tokens+16K预算防思考吃光+响应先落/tmp防摔丢), pipeline/reviews/kayak-gpt-1114.md

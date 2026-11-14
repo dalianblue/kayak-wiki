@@ -31,7 +31,10 @@ markdown_extensions:
 
 nav:
   - 首页: index.md
-  - 演变路线: evolution/index.md
+  - 演变路线:
+      - 时间轴总览: evolution/index.md
+      - 格陵兰 qajaq: evolution/greenland-qajaq.md
+      - 英式海划革命: evolution/british-sea-kayak.md
   - 格陵兰专栏:
       - 历史与构造: greenland/index.md
       - 滚法入门: greenland/roll-list.md
