@@ -100,7 +100,7 @@ https://fxmlab.top/kayak/（中文）。
 
 ---
 
-## [2026-11-14] 状态: ✅ GRANTED —— 感谢回复草稿（施主发送）
+## [2026-11-14] 状态: ✅ GRANTED —— 感谢回复草稿（**暂缓发送**: 施主1114定, 项目跑一段后再发; 届时连同页面送审一并联系）
 
 > **Subject:** Re: Permission to use your Aleut kayak build photos
 >

@@ -107,3 +107,11 @@
 - 素材落位: raw/photos/bob-shaver/build/ 4张JPEG(2500px)+文章页快照; 凭证raw/rights/bob-shaver/(.eml+.txt, 不进git); CDN协商返WebP已用?format=original重下真JPEG
 - 台账: RIGHTS.yaml新增photos: bob-shaver-aleut-build(rights: book-licensed); .gitignore补raw/photos/+raw/rights/
 - 待办: 感谢回复(草稿在outreach模板)+baidarka节建页(整页送审Bob后上线)+进展通报机制
+
+## [2026-11-14] privacy | 私人邮件零入库整改(施主1114令)+回复暂缓
+- 施主令: 私人邮件不上传gh; 感谢回复暂缓(项目跑一段后再发, 送审承诺仍有效=建页完成时首个接触点)
+- 整改: git-filter-repo全史改写——Bob邮箱地址从cdf054b(模板)/3b17974(log)全部清除, git log -S全史零命中; 改写前bundle备份/tmp/kayak-pre-scrub-1114.bundle
+- 凭证与照片本来就在raw/(gitignored)未入库 ✓
+- CI加privacy guard: grep私人邮箱域名(gmail/qq/163/126/outlook/hotl foxmail)命中即fail(fail-closed)
+- 待施主执行: git push --force origin main(deny红线, 本人SSH执行); M5 Max下次同步须fetch+reset --hard origin/main
+- 残余风险: GitHub服务端旧提交缓存到GC前可能按SHA可达(分支已不可达)
