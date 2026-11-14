@@ -410,6 +410,15 @@ books:
 # ---------- 数字原生源（1113摄入, gitee镜像→GitHub双活） ----------
 
 digital_sources:
+  alutiiq-museum-web:
+    title: Alutiiq Museum「Qayat」页(Alutiiq/Sugpiaq皮艇传统, Kodiak)
+    author: Alutiiq Museum and Archaeological Repository
+    rights: all-rights      # ©全保留——事实可引用须署名+回链, 图片未经许可不得复用
+    scope: reference        # 引用事实(署名), 不转载图与整段
+    ingested: 2026-11-14
+    evidence: ['alutiiqmuseum.org/alutiiq-people/subsistence/qayat/', '快照raw/sources/alutiiq-museum/']
+    notes: 独家价值=Paitaalek(三舱艇)母语释义印证运输说(第三信源); Alutiiq语舱位名/鲸须绑扎/桨柄咬齿辨猎/蒸汽弯木帽/活护符/Fast kayak 1868→2023哈佛归还; 施主推荐英文宝库第一站
+
   alaska-kayak-film:
     title: Kayak（纪录片, 28:36, 阿拉斯加州立博物馆展览配套）
     author: Alaska Department of Education / Pacific Communications (1987)
