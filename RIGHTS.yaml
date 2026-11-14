@@ -418,7 +418,7 @@ digital_sources:
     scope: reference       # 只引用事实线索(影片口径), 不转载影像
     ingested: 2026-11-14
     evidence: ['vilda.alaska.edu/digital/collection/cdmg21/id/17902/', 'ASL-0355-Video', 'youtube.com/watch?v=hT8_SrPG-5U']
-    notes: BibiGPT AI摘要存raw/sources/alaska-film/(非一手史料); 摘要事实进入创作层须标"影片口径"; 摘要转述再核原片后可升级
+    notes: 逐句中译(施主译, own资产)已入raw/sources/alaska-film/transcript_zh_dalianblue.md 并发布为站内译注页(evolution/kayak-1987-transcript, 时间戳跳转B站原片); 影像本体仍不转载; BibiGPT AI摘要存同目录(转述级, 已被译文取代)
 
   pengyi-manual:
     title: 澎逸羽船组装说明书（含FAQ/安装技巧/改装指南/创始人故事）
