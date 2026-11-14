@@ -18,3 +18,7 @@ __pycache__/
 !site-demo/docs/assets/*.webp
 site-demo/site/
 site-demo/.venv/
+
+# 第三方授权素材: 凭证与照片不进git(RIGHTS.yaml为唯一台账)
+raw/photos/
+raw/rights/

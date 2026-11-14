@@ -450,3 +450,15 @@ generated_assets:
     rights: own            # AI生成+事实要点来自自有授权源+人工验收=自有资产口径
     license: CC BY-SA 4.0  # 随联邦包
     candidates: raw/assets/candidates/kayaks-flare*.png(不进git, 3张留档)
+
+photos:
+  bob-shaver-aleut-build:
+    title: Building an Aleut Kayak (建造过程照片3-4张, 分叉艏构造)
+    author: Bob Shaver (backpackingtechnology.com, 在世)
+    rights: book-licensed      # 第三方照片: 作者email书面授权(2026-11-13), 沿用六态语义=已授权公开+授权注记
+    scope: evolution/aleut-baidarka   # 仅限Aleut baidarka节, 分叉艏构造插图
+    license_terms: '非商业+每图署名"Photo: Bob Shaver, backpackingtechnology.com"+原文回链; 上线前整页送审; 随时可下架' 
+    grant: email 2026-11-13 "Permission granted, with the scope you have described. Let me know how the project goes."
+    evidence: [raw/rights/bob-shaver/email_reply1_297.eml, raw/rights/bob-shaver/email_reply2_298.eml]
+    photos_src: raw/photos/bob-shaver/   # 不进git
+    notes: 'Bob附赠Sitka博物馆Aleut艇照片一张(未授权上站, 使用前需单独询问); 他明确要求进展通报("Let me know how the project goes")' 

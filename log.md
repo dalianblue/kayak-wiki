@@ -99,3 +99,11 @@
 - 模板: pipeline/templates/outreach-001-bob-shaver.md(英文正文+中文对照+使用说明)
 - 承诺框架: 非商业/逐张署名+回链/许可遵作者指定/上线前审阅/随时撤下
 - 老派户外人定位: 信中呼应其12年教学与山地救援生涯(真诚非商务腔)
+
+## [2026-11-14] rights | 外联#001成交: Bob Shaver授权 Granted(首条真实外部授权)
+- 施主1113晚发出请求, Bob Shaver([email redacted: private correspondence, evidence kept locally only])次日两封回复: "Permission granted, with the scope you have described"
+- 授权范围: 建造照片3-4张, 仅Aleut baidarka节, 逐张署名"Photo: Bob Shaver, backpackingtechnology.com"+原文回链, 非商业, 上线前整页送审, 随时可下架(=施主承诺全框架, Bob逐条接受)
+- 附加: ①Bob明确要求项目进展通报("Let me know how the project goes")=关系维护义务 ②附赠Sitka阿留申博物馆同形hull照片一张(未授权上站, 用前单独询问)
+- 素材落位: raw/photos/bob-shaver/build/ 4张JPEG(2500px)+文章页快照; 凭证raw/rights/bob-shaver/(.eml+.txt, 不进git); CDN协商返WebP已用?format=original重下真JPEG
+- 台账: RIGHTS.yaml新增photos: bob-shaver-aleut-build(rights: book-licensed); .gitignore补raw/photos/+raw/rights/
+- 待办: 感谢回复(草稿在outreach模板)+baidarka节建页(整页送审Bob后上线)+进展通报机制
