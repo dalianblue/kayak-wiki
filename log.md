@@ -136,3 +136,9 @@
 - 隐私洗白: 电话/邮箱行整行移除(私人直联), 微信公众号名保留(商务渠道); raw/档案层原文不动
 - 坑: gitignore的*.webp全局规则二次拦图(handbuild否定只写了单路径)→否定泛化到全build树**/img{,2}/*.webp; 原文README自带目录链接中文文件名→重写新页名+删我附加的重复目录
 - CI绿(43601568846), 线上三页200核验; 演变站⑥中国支脉行已挂收录链接
+
+## [2026-11-14] sources | 《Kayak》1987影片译注上线(施主逐句翻译)
+- 施主M5 Max提供两波: ①BibiGPT AI摘要(转述级) ②逐句字幕翻译(带时间戳跳转B站原片)
+- 影片核实: 《Kayak》ASL-0355-Video, 1987, Alaska Dept of Education出品, 讲解=Zimmerly+Heath(本站已引权威), vilda/YouTube免费公开
+- 发布: evolution/kayak-1987-transcript.md 译注页(逐字照录+页头影片溯源+权利说明); 阿留申staging影片口径节升级译文口径(时间戳引用), 三孔艇运输行政说获影片译文直接支持(t=543); 格陵兰量体第二口径译文核验(t=481"该特定社区"限定)
+- 权利: 译文=own(施主译作); 影像uncleared不转载; RIGHTS条目+PROVENANCE同步
