@@ -24,9 +24,6 @@ plugins:
       blog_toc: true
 
 markdown_extensions:
-  - toc:
-      slugify: !!python/name:pymdownx.slugs.slugify
-      slugify_separator: '-'
   - attr_list
   - md_in_html
   - tables
