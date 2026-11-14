@@ -22,5 +22,6 @@ site-demo/.venv/
 # 第三方授权素材: 凭证与照片不进git(RIGHTS.yaml为唯一台账)
 raw/photos/
 raw/rights/
-# 转载书图片例外说明: 原始扫描图(百MB级)不进git; WebP压缩转载图(12MB)进git——CI/worktree/部署三处完整需要
-!site-demo/docs/build/handbuild/img/*.webp
+# 转载图文档例外: 原始扫描图(百MB级)不进git; WebP压缩转载图(handbuild 12M+pengyi 3.4M)进git——CI/worktree/部署三处完整需要
+!site-demo/docs/build/**/img/*.webp
+!site-demo/docs/build/**/img2/*.webp
