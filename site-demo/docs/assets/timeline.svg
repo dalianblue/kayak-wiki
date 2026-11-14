@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 240" font-family="-apple-system,'PingFang SC','Noto Sans SC',sans-serif">
+  <rect width="920" height="240" fill="#F0EEE6" rx="12"/>
+  <!-- 主时间轴 -->
+  <line x1="60" y1="120" x2="860" y2="120" stroke="#141413" stroke-width="2"/>
+  <polygon points="860,120 848,114 848,126" fill="#141413"/>
+  <text x="52" y="138" font-size="12" fill="#141413" text-anchor="end">1865</text>
+  <text x="872" y="138" font-size="12" fill="#141413">今天</text>
+
+  <!-- 站点: 圆点+年代+标注 (上排下排交错) -->
+  <!-- 1865 Rob Roy -->
+  <circle cx="90" cy="120" r="5" fill="#D97757"/>
+  <line x1="90" y1="115" x2="90" y2="85" stroke="#B8B2A7" stroke-width="1"/>
+  <text x="90" y="75" font-size="13" font-weight="600" fill="#141413" text-anchor="start">1865</text>
+  <text x="90" y="60" font-size="11" fill="#3D3929" text-anchor="start">Rob Roy 叙事</text>
+
+  <!-- 1905-07 折叠艇 -->
+  <circle cx="215" cy="120" r="5" fill="#141413"/>
+  <line x1="215" y1="125" x2="215" y2="155" stroke="#B8B2A7" stroke-width="1"/>
+  <text x="215" y="172" font-size="13" font-weight="600" fill="#141413" text-anchor="middle">1905–07</text>
+  <text x="215" y="188" font-size="11" fill="#3D3929" text-anchor="middle">折叠艇商业化</text>
+
+  <!-- 1928-39 远征 -->
+  <circle cx="340" cy="120" r="5" fill="#141413"/>
+  <line x1="340" y1="115" x2="340" y2="85" stroke="#B8B2A7" stroke-width="1"/>
+  <text x="340" y="75" font-size="13" font-weight="600" fill="#141413" text-anchor="middle">1928–39</text>
+  <text x="340" y="60" font-size="11" fill="#3D3929" text-anchor="middle">Römer / Speck 远征</text>
+
+  <!-- 1950s 玻璃钢 -->
+  <circle cx="455" cy="120" r="5" fill="#141413"/>
+  <line x1="455" y1="125" x2="455" y2="155" stroke="#B8B2A7" stroke-width="1"/>
+  <text x="455" y="172" font-size="13" font-weight="600" fill="#141413" text-anchor="middle">1950s</text>
+  <text x="455" y="188" font-size="11" fill="#3D3929" text-anchor="middle">玻璃钢登场</text>
+
+  <!-- 1971-75 英式定型 -->
+  <circle cx="580" cy="120" r="6" fill="#D97757"/>
+  <line x1="580" y1="114" x2="580" y2="85" stroke="#B8B2A7" stroke-width="1"/>
+  <text x="580" y="75" font-size="13" font-weight="600" fill="#141413" text-anchor="middle">1971–75</text>
+  <text x="580" y="60" font-size="11" fill="#3D3929" text-anchor="middle">Anas Acuta / Nordkapp</text>
+
+  <!-- 1984 复兴 -->
+  <circle cx="700" cy="120" r="5" fill="#141413"/>
+  <line x1="700" y1="125" x2="700" y2="155" stroke="#B8B2A7" stroke-width="1"/>
+  <text x="700" y="172" font-size="13" font-weight="600" fill="#141413" text-anchor="middle">1984</text>
+  <text x="700" y="188" font-size="11" fill="#3D3929" text-anchor="middle">Qaannat Kattuffiat</text>
+
+  <!-- 2018 活标本 -->
+  <circle cx="810" cy="120" r="5" fill="#141413"/>
+  <line x1="810" y1="114" x2="810" y2="85" stroke="#B8B2A7" stroke-width="1"/>
+  <text x="810" y="75" font-size="13" font-weight="600" fill="#141413" text-anchor="middle">2018</text>
+  <text x="810" y="60" font-size="11" fill="#3D3929" text-anchor="middle">Bob Shaver 建造</text>
+
+  <!-- 图注 -->
+  <text x="60" y="222" font-size="11" fill="#3D3929">图：皮划艇技术演变时间轴（本站七站中的关键节点）。橙色点 = 英式海划革命与当代建造复兴两个枢纽站。</text>
+</svg>
