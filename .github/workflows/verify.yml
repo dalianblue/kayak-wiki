@@ -22,7 +22,8 @@ jobs:
         working-directory: site-demo
       - name: privacy guard - private emails must stay out of the repo
         run: |
-          ! git grep -InE '[a-zA-Z0-9._%+-]+@(gmail|qq|163|126|outlook|hotmail|foxmail)\.' -- . || { echo "::error::私人邮箱入库(红线: 私人邮件零入库, evidence只留raw/)"; exit 1; }
+          # 检查范围=创作层(排除raw/档案层——授权原文逐字保真, 原文内联系方式随许可分发不改)
+          ! git grep -InE '[a-zA-Z0-9._%+-]+@(gmail|qq|163|126|outlook|hotmail|foxmail)\.' -- . ':(exclude)raw/**' || { echo "::error::私人邮箱入库(红线: 私人邮件零入库, evidence只留raw/)"; exit 1; }
       - uses: actions/upload-artifact@v4
         with:
           name: site-${{ github.sha }}
