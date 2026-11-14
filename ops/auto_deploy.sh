@@ -25,6 +25,8 @@ mkdocs build --strict || { LOG "构建失败(--strict), 保持旧版上线"; cd 
 STAMP=$(date +%m%d%H%M)
 mv /www/wwwroot/kayak "/www/wwwroot/kayak_bak_$STAMP"
 mv "$WT/site-demo/site" "/www/wwwroot/kayak"
+# gitignored转载书图片回填(worktree里没有, 主工作树有)
+rsync -a /root/workspace/kayak-wiki/site-demo/docs/build/handbuild/img/ /www/wwwroot/kayak/build/handbuild/img/ 2>/dev/null || true
 cd "$REPO" && git worktree remove --force "$WT"
 git merge --ff-only origin/main --quiet 2>/dev/null   # 本地快进, 防同提交反复重建
 # 只保留最近一份backup

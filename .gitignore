@@ -22,3 +22,5 @@ site-demo/.venv/
 # 第三方授权素材: 凭证与照片不进git(RIGHTS.yaml为唯一台账)
 raw/photos/
 raw/rights/
+# 转载书图片(WebP压缩版, 12MB, 服务器侧保留; CI构建无需图片)
+site-demo/docs/build/handbuild/img/

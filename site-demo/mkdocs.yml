@@ -42,5 +42,18 @@ nav:
       - 设计要素: build/design-factors.md
       - 型线图: build/lines-plan.md
       - 放样: build/lofting.md
+      - 艺术级皮划艇建造（吴树升著·全书）: build/handbuild/index.md
+      - 第1章 设计因素: build/handbuild/ch01.md
+      - 第2章 型线图: build/handbuild/ch02.md
+      - 第3章 建造基础: build/handbuild/ch03.md
+      - 第4章 形板放样: build/handbuild/ch04.md
+      - 第5章 形板与木条加工: build/handbuild/ch05.md
+      - 第6章 常见木料: build/handbuild/ch06.md
+      - 第7章 建造船体和甲板: build/handbuild/ch07.md
+      - 第8章 铺设玻璃纤维: build/handbuild/ch08.md
+      - 第9章 配件设计制作: build/handbuild/ch09.md
+      - 第10章 船体和甲板装配: build/handbuild/ch10.md
+      - 第11章 船桨制作: build/handbuild/ch11.md
+      - 第12章 维护和修理: build/handbuild/ch12.md
   - 划行日志: blog/index.md
   - 关于: about.md
