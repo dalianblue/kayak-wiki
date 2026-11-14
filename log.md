@@ -122,3 +122,10 @@
 - 元数据: 三页confidence降medium, contested=true, 每页附修订记录(v1存git史); greenland/index.md构造表masik勘误
 - 部署: 本机即宝塔宿主(无需ssh, 技能已补); 纯mv原子换目录(deny红线禁rm -rf, 旧版留kayak_backup_1114); 线上核验200/200/200+阿留申404✓
 - 管线沉淀: pipeline/gpt_review_kayak_1114.py(审稿脚本: max_completion_tokens非max_tokens+16K预算防思考吃光+响应先落/tmp防摔丢), pipeline/reviews/kayak-gpt-1114.md
+
+## [2026-11-14] build | 《艺术级皮划艇建造技术》全书收录上线(施主令)
+- 权利链: RIGHTS.yaml hand-build-kayak=rights:cc/CC BY-SA 4.0(1113吴树升经施主确认, BY-NC误贴已销案)——全文转载=标准许可用法
+- 收录: 12章逐字(8.3万字)+作者介绍/版权声明+书目录页, 每页CC BY-SA授权页脚+原文回链
+- 图片: 326张原图213MB→WebP质量78限宽1400=12MB(94%瘦身), 入git(CI/worktree/部署三处完整; 铁律口径细化=原始扫描件不进, 压缩转载图进)
+- 三连坑实录: ①转换正则双点号bug致323引用未换webp ②老gitignore全局*.webp拦书图入库(加handbuild否定) ③pymdownx slugify版本KeyError→撤配置+导读锚点改纯文本(右侧TOC已有导航)
+- CI转绿(43592013521), strict零警告, 线上三页核验200
