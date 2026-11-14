@@ -15,7 +15,7 @@
 | ④ 现代艇型分化 | 1990s起 | 塑料/复合量产艇 | 量产、罗陀螺化 | 澎逸说明书（CC）/市售艇 |
 | ⑤ 格陵兰复兴 | 1984起 | 传统工艺重建 | Qaannat Kattuffiat、滚法竞技化 | Qajaq USA / 格陵兰冠军赛 |
 | ⑤b 北美西海岸复兴 | 1990s–2000s | Harvey Golden 收藏研究 / Cape Falcon 图纸 | 蒙皮框艇建造全球DIY普及 | 待核：Golden《Kayaks of Greenland》/ Cape Falcon 免费建造手册 |
-| ⑥ 中国支脉 | 2010s起 | 澎逸羽船等国产折叠艇 | 国产化、大众化 | 澎逸组装说明书（CC授权） |
+| ⑥ 中国支脉 | 2010s起 | 澎逸羽船等国产折叠艇 | 国产化、大众化 | [官方文档全量收录](../build/pengyi/index.md)（CC BY-SA） |
 
 ## 各站导读
 
