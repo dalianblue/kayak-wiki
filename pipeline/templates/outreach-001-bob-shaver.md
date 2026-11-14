@@ -97,3 +97,22 @@ https://fxmlab.top/kayak/（中文）。
 - 施主回复后: RIGHTS.yaml digital_sources 注册该源, 授权条款按回复原文记录
 - 若同意→图片下载存 raw/assets/candidates/, 公开层用压缩版+署名
 - 若无回复→2周后跟进一次, 仍无则只走"链接引用"路径
+
+---
+
+## [2026-11-14] 状态: ✅ GRANTED —— 感谢回复草稿（施主发送）
+
+> **Subject:** Re: Permission to use your Aleut kayak build photos
+>
+> Dear Bob,
+>
+> Thank you so much — this means a great deal to our project. Your build photos will anchor the Aleut baidarka section, and I will send you the page for review before anything goes live, exactly as promised.
+>
+> Your Sitka museum story gave me goosebumps. That is precisely the hull continuity we are trying to document — from the hunters of the Aleutians to the boats we paddle today. The photo you attached is wonderful. May we include it on the page alongside your build photos? Happy to credit it however you prefer.
+>
+> I will keep you posted on how the project grows — it exists because people like you shared their work so generously.
+>
+> With gratitude,
+> [您的落款，与首封邮件一致]
+
+**要点:** ①确认承诺兑现(送审) ②呼应博物馆故事(真诚非商务腔) ③询问博物馆照片是否可用(用前单独授权的合规路径) ④通报义务接住("keep you posted")。Bob回复快(次日)、语气热情——这条关系值得长期维护, 建议页面上线时同步通报, 以后每季度一次进展。
