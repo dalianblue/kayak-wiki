@@ -428,6 +428,48 @@ books:
     evidence: [raw/books/boat-building-beard-1931/PROVENANCE.md]
     notes: '1115补采; 层2公版敲门砖(在库建造书0本的第一个补充)'
 
+  stephens-canoe-building-1889:
+    title: Canoe and Boat Building for Amateurs (4th ed.)
+    author: William Picard Stephens
+    author_status: deceased-1946
+    publisher: Forest and Stream Pub. Co (New York 1889)
+    pub_year: 1889
+    rights: public-domain       # 1889出版公版确凿(137年前); archive.org UC Libraries扫描
+    scope: core                 # 层2建造核心书: 设计原则/型线/放样/建造工序
+    file: raw/books/stephens-canoe-building-1889/
+    pd_cn: 已公版
+    source: archive-org-canoeboatbuildin00stepiala
+    evidence: [raw/books/stephens-canoe-building-1889/PROVENANCE.md]
+    notes: '1115施主Mac侧代下; OCR有老式错引用数字对页图复核; 278页'
+
+  rink-danish-greenland-1877:
+    title: Danish Greenland, its People and its Products
+    author: Hinrich Rink (ed. Robert Brown; 英译自Grønland 1857)
+    author_status: deceased-1893
+    publisher: H.S. King & Co (London 1877)
+    pub_year: 1877
+    rights: public-domain       # 1877出版公版确凿; 备选Wellcome版b24887250带Public Domain Mark明示
+    scope: core                 # 层3格陵兰文化核心书: 生存方式/狩猎/手工业/社会生活; Wellcome版含因纽特自绘插图
+    file: raw/books/rink-danish-greenland-1877/
+    pd_cn: 已公版
+    source: archive-org-cu31924032358388
+    evidence: [raw/books/rink-danish-greenland-1877/PROVENANCE.md]
+    notes: '1115施主Mac侧代下; 565页; 作者名1115检索核实(原疑Signe系其妻)'
+
+  nansen-first-crossing-1890:
+    title: The First Crossing of Greenland (Vol.2 在库; Gepp英译两卷本)
+    author: Fridtjof Nansen (trans. Hubert Majendie Gepp)
+    author_status: deceased-1930
+    publisher: Longmans, Green & Co (London 1890)
+    pub_year: 1890
+    rights: public-domain       # 1890出版公版确凿
+    scope: core                 # 层3: 格陵兰冰原穿越实录+装备与生存
+    file: raw/books/nansen-first-crossing-1890-vol2/
+    pd_cn: 已公版
+    source: archive-org-firstcrossingofg02nans
+    evidence: [raw/books/nansen-first-crossing-1890-vol2/PROVENANCE.md]
+    notes: '1115施主Mac侧代下; 卷2在库(Toronto版+Harvard版重复对照); **卷1缺失待补**(试firstcrossingofg01nans/Cornell版cu31924092514151卷次未标/Canadiana oocihm.55700)'
+
 # ------------------------------------------------------------
 # 汇总(2026-11-13): 32书 = 0本今日可公开(全部book-uncleared起步)
 #   在世作者约21本 → book-licensed主攻(P1×9)

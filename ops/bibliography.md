@@ -41,15 +41,15 @@
 
 ## 缺口书单(三层主战场藏书错位, 1115) — 补采按Tier A公版优先
 
-### 层2 建造(在库0本 → 1115已+1本adjacent: Beard 1931, canoe向)
-- W.P. Stephens, *Canoe and Boat Building for Amateurs* (1889) — **公版确认存在**(archive.org identifier=canoeboatbuildin00stepiala, Univ. of California藏)但**archive.org通道当日不可达**→挂账待通道/Mac侧代下
+### 层2 建造(在库0本 → 1115已+1核心Stephens1889+1adjacent Beard1931)
+- W.P. Stephens, *Canoe and Boat Building for Amateurs* (1889) — ✅1115已采(施主Mac侧代下, archive.org canoeboatbuildin00stepiala, 278页, RIGHTS已登记public-domain)
 - Robert Morris? / Christopher Cunningham, *Building the Greenland Kayak* (2007, Stackpole) — 版权内→Tier B保存或作者外联
 
 ### 层3 格陵兰文化(在库1本 → 1115已+1本核心: Nansen Eskimo Life 1893, Gutenberg #46972全文+32图版已存raw/books/)
 - Fridtjof Nansen, *Eskimo Life* (1893英译) — ✅1115已采(Gutenberg直收, RIGHTS.yaml已登记public-domain)
-- Fridtjof Nansen, *The First Crossing of Greenland* (1890) — 英译仅archive.org/HathiTrust两卷, **通道挂账**; Gutenberg有德文版#71354备选
+- Fridtjof Nansen, *The First Crossing of Greenland* (1890) — ⏳**部分采**: 卷2已入库(施主Mac侧代下, Toronto版+Harvard版对照, RIGHTS已登记); **卷1缺失**待补(候选: firstcrossingofg01nans按命名规律/Cornell版cu31924092514151卷次未标/Canadiana oocihm.55700卷I); Gutenberg德文版#71354备选
 - Hans Peder Steensby / Kaj Birket-Smith 民族志(20世纪上半叶部分公版边界需逐本核) — 狩猎文化专论
-- Signe Rink, *Danish Greenland* (1877英译) — 作者名待核(疑为Hinrich Rink), archive.org挂账
+- Hinrich Rink (H. Rink, 1819-1893), *Danish Greenland, its people and products* (1877英译) — ✅1115已采(施主Mac侧代下, Cornell版cu31924032358388 565页, RIGHTS已登记; 备选Wellcome版b24887250 Public Domain Mark明示+因纽特自绘插图)
 - Qaannat Kattuffiat / Greenland National Museum 数字化页 — ©全保留, Tier B保存+事实锚定回链
 
 ### 层1 新手(在库0本)

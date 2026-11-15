@@ -160,3 +160,8 @@
 - 挂账: First Crossing英译/Stephens 1889/Rink Danish Greenland 仅archive.org→待通道恢复或施主Mac侧代下(上传通道现成)
 - 台账: RIGHTS.yaml +2条rights=public-domain(新态, SCHEMA六态→七态); PROVENANCE×2四件套; bibliography缺口书单→2转正3挂账
 - 坑: Gutenberg搜索页禁抓(封IP)——编号用云端web_search查; notes值含": "必须加引号(否则YAML拒写); 大文件-C -断点续传必带
+
+## [2026-11-15] ingest | Mac侧代下验收: 3本公版书入库(Stephens/Rink/Nansen卷2)
+- 施主Mac下载archive.org PDF×4上传_incoming/, 验收: 4/4可开+OCR文本层310万字符; **发现两份Nansen文件均为卷2**(gr01nansgoog目录页CONTENTS OF THE SECOND VOLUME实锚, 文件名01≠卷次)→卷2在库(Toronto+Harvard版对照), 卷1缺失待补(候选firstcrossingofg01nans/Cornell cu31924092514151卷次未标/Canadiana oocihm.55700)
+- 入库: ①Stephens Canoe and Boat Building 1889(278页)=层2首本核心书(设计/型线/放样/工序) ②Rink Danish Greenland 1877(565页)=层3核心(作者名核实证误Signe=Hinrich其妻; Wellcome版含因纽特自绘插图) ③Nansen First Crossing Vol.2
+- 台账: RIGHTS+3条public-domain, PROVENANCE×3, bibliography三本转正; PDF本体不进git(*.pdf全局ignore符合大文件铁律), git只存PROVENANCE; sha256已录
