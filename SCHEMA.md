@@ -16,6 +16,8 @@
 
 ## Conventions
 
+- **写作范式（1115施主认可，狩猎装备页饼干化反馈后确立）**：叙事源（民族志/日志/远征记/一手记录）→ **叙事页优先**——故事做主干，装备与规格在动作中出场，作者的声音在场（引其判断句与比喻）；规格信息降级为姊妹参考页或页尾技术附录，**禁把叙事源压缩成清单条目**（"饼干化"）。编辑授权：允许细节渲染与顺序重组，事实断言以原文为限（添氛围不造事实）。双页互链为民族志类内容默认形态：叙事页+参考页。流程不变：GPT事实审稿/漂移校核必过，采纳勘误后confidence=medium+contested=true
+
 - 文件名：小写连字符（`sweep-stroke.md`、` Eskimo-roll.md`→`eskimo-roll.md`）
 - 每页 YAML frontmatter 必填：title/created/updated/type/tags/sources
 - 每页 ≥2 条出站 `[[wikilinks]]`（孤儿页是缺陷）
