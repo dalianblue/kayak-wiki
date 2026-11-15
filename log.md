@@ -170,3 +170,8 @@
 - 施主拍板先创作看效果; 取料=Nansen Ch.III-IV全文通读(60KB)→自话重写10节(装备全貌/武器族谱/鱼镖五部件/刀矛鸟镖/投掷板三型制/kaiak本体/防水上衣/技艺谱系/危险账本/狩猎叙事+6条原则)
 - 施主令"拿不准问GPT": GPT-6.1-sol事实校核(prompt含页面+原文60KB, 19377tok)→10条意见→裁决采纳9修正+1误报留证(前杆"偏折"与原文breaks off at the joint不符); 依纪律confidence=medium+contested=true; 审稿记录ops/gpt_code_review_202611/hunting_gear_nansen_review.md
 - 图版: {{fig:}}占位×8(fp032/i037/i040/i043/i044a/i040重复注意/i058系)——指向images/原书页码命名图版; 页面进staging不进公开站(nav不挂), 备案后随三层nav上线
+
+## [2026-11-15] ingest | Mac侧代下第二批: Nansen前置卷(INTRODUCTION+装备专章)
+- 施主补传firstcrossingofg00nansuoft.pdf(原意找卷1, identifier中00=Toronto版前置卷)——**非卷1亦非重复**: 目录实锚Ch.I INTRODUCTION历史篇/Ch.II THE EQUIPMENT装备专章/Ch.VI冠海豹猎捕; 476页/29MB/文本层77万字符/sha256前16=dca8667c61225c79
+- 归位raw/books/nansen-first-crossing-1890-prelim/; RIGHTS该条目扩为前置卷+卷2双在库, 卷1仍缺(ofg01候选/Canadiana卷I)
+- 价值: 装备专章=Nansen亲历器具实录(层2), 历史引论=皮划艇起源史(层3)

@@ -457,18 +457,18 @@ books:
     notes: '1115施主Mac侧代下; 565页; 作者名1115检索核实(原疑Signe系其妻)'
 
   nansen-first-crossing-1890:
-    title: The First Crossing of Greenland (Vol.2 在库; Gepp英译两卷本)
+    title: The First Crossing of Greenland (前置卷+Vol.2 在库; Gepp英译)
     author: Fridtjof Nansen (trans. Hubert Majendie Gepp)
     author_status: deceased-1930
     publisher: Longmans, Green & Co (London 1890)
     pub_year: 1890
     rights: public-domain       # 1890出版公版确凿
-    scope: core                 # 层3: 格陵兰冰原穿越实录+装备与生存
-    file: raw/books/nansen-first-crossing-1890-vol2/
+    scope: core                 # 层3: 前置卷=历史引论+装备专章+冠海豹猎捕; 卷2=冰原穿越实录+装备与生存
+    file: raw/books/nansen-first-crossing-1890-vol2/ raw/books/nansen-first-crossing-1890-prelim/
     pd_cn: 已公版
-    source: archive-org-firstcrossingofg02nans
-    evidence: [raw/books/nansen-first-crossing-1890-vol2/PROVENANCE.md]
-    notes: '1115施主Mac侧代下; 卷2在库(Toronto版+Harvard版重复对照); **卷1缺失待补**(试firstcrossingofg01nans/Cornell版cu31924092514151卷次未标/Canadiana oocihm.55700)'
+    source: archive-org-firstcrossingofg02nans archive-org-firstcrossingofg00nansuoft
+    evidence: [raw/books/nansen-first-crossing-1890-vol2/PROVENANCE.md, raw/books/nansen-first-crossing-1890-prelim/PROVENANCE.md]
+    notes: '1115施主Mac侧代下; 前置卷(INTRODUCTION+THE EQUIPMENT装备专章, 476页)+卷2在库(Toronto版+Harvard版对照); **卷1缺失待补**(试firstcrossingofg01nans/Cornell版cu31924092514151卷次未标/Canadiana oocihm.55700)'
 
 # ------------------------------------------------------------
 # 汇总(2026-11-13): 32书 = 0本今日可公开(全部book-uncleared起步)

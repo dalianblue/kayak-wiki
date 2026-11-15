@@ -47,7 +47,7 @@
 
 ### 层3 格陵兰文化(在库1本 → 1115已+1本核心: Nansen Eskimo Life 1893, Gutenberg #46972全文+32图版已存raw/books/)
 - Fridtjof Nansen, *Eskimo Life* (1893英译) — ✅1115已采(Gutenberg直收, RIGHTS.yaml已登记public-domain)
-- Fridtjof Nansen, *The First Crossing of Greenland* (1890) — ⏳**部分采**: 卷2已入库(施主Mac侧代下, Toronto版+Harvard版对照, RIGHTS已登记); **卷1缺失**待补(候选: firstcrossingofg01nans按命名规律/Cornell版cu31924092514151卷次未标/Canadiana oocihm.55700卷I); Gutenberg德文版#71354备选
+- Fridtjof Nansen, *The First Crossing of Greenland* (1890) — ⏳**部分采**: 前置卷(INTRODUCTION历史篇+THE EQUIPMENT装备专章+冠海豹猎捕, 476页)+卷2已入库(施主Mac侧代下, RIGHTS已登记); **卷1(穿越正文)缺失**待补(候选: firstcrossingofg01nans按命名规律/Cornell版cu31924092514151卷次未标/Canadiana oocihm.55700卷I); Gutenberg德文版#71354备选
 - Hans Peder Steensby / Kaj Birket-Smith 民族志(20世纪上半叶部分公版边界需逐本核) — 狩猎文化专论
 - Hinrich Rink (H. Rink, 1819-1893), *Danish Greenland, its people and products* (1877英译) — ✅1115已采(施主Mac侧代下, Cornell版cu31924032358388 565页, RIGHTS已登记; 备选Wellcome版b24887250 Public Domain Mark明示+因纽特自绘插图)
 - Qaannat Kattuffiat / Greenland National Museum 数字化页 — ©全保留, Tier B保存+事实锚定回链
