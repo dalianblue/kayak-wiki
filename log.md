@@ -175,3 +175,9 @@
 - 施主补传firstcrossingofg00nansuoft.pdf(原意找卷1, identifier中00=Toronto版前置卷)——**非卷1亦非重复**: 目录实锚Ch.I INTRODUCTION历史篇/Ch.II THE EQUIPMENT装备专章/Ch.VI冠海豹猎捕; 476页/29MB/文本层77万字符/sha256前16=dca8667c61225c79
 - 归位raw/books/nansen-first-crossing-1890-prelim/; RIGHTS该条目扩为前置卷+卷2双在库, 卷1仍缺(ofg01候选/Canadiana卷I)
 - 价值: 装备专章=Nansen亲历器具实录(层2), 历史引论=皮划艇起源史(层3)
+
+## [2026-11-15] content | 写作范式转向(施主反馈)+叙事页staging
+- 施主批评首篇"把丰富多彩的书压缩成饼干, 干涩"——诊断: 百科条目范式错用于民族志叙事源。施主拍板: 叙事范式重写+授权"适当添加细节/改变逻辑, 事实锚点不动"
+- 新建叙事页pipeline/staging/hunting-day-boas.md《狩猎一日: 跟着Boas出海》(Boas全天为主线, 装备在动作中出场, Nansen声音在场); 原规格稿降级为姊妹参考页hunting-gear-nansen.md(技术参考定位+互链+叙事节拆出)
+- GPT事实漂移校核8条(叙事改写特有风险): 采纳6修正(背景措辞/晾绳/"说翻就翻"/海鸠颈折/大一圈→一倍/脂油归属改同伴分得/注脚最多→有时/盲区表述/Dalager引文/锚改Ch.III-IV)+确认2类(nigek/ardluk/四头等全吻合; 化成石头等比喻渲染可接受); 注意力段子删(GPT指其在Ch3且为转述未认证事实)
+- 写作纪律待固化: "叙事源(民族志/日志/远征记)→叙事页优先, 规格信息附录化, 禁把叙事源压缩成清单条目"(待入SCHEMA)
