@@ -165,3 +165,8 @@
 - 施主Mac下载archive.org PDF×4上传_incoming/, 验收: 4/4可开+OCR文本层310万字符; **发现两份Nansen文件均为卷2**(gr01nansgoog目录页CONTENTS OF THE SECOND VOLUME实锚, 文件名01≠卷次)→卷2在库(Toronto+Harvard版对照), 卷1缺失待补(候选firstcrossingofg01nans/Cornell cu31924092514151卷次未标/Canadiana oocihm.55700)
 - 入库: ①Stephens Canoe and Boat Building 1889(278页)=层2首本核心书(设计/型线/放样/工序) ②Rink Danish Greenland 1877(565页)=层3核心(作者名核实证误Signe=Hinrich其妻; Wellcome版含因纽特自绘插图) ③Nansen First Crossing Vol.2
 - 台账: RIGHTS+3条public-domain, PROVENANCE×3, bibliography三本转正; PDF本体不进git(*.pdf全局ignore符合大文件铁律), git只存PROVENANCE; sha256已录
+
+## [2026-11-15] content | 首篇内容页staging完成: 狩猎装备系统(pipeline/staging/hunting-gear-nansen.md)
+- 施主拍板先创作看效果; 取料=Nansen Ch.III-IV全文通读(60KB)→自话重写10节(装备全貌/武器族谱/鱼镖五部件/刀矛鸟镖/投掷板三型制/kaiak本体/防水上衣/技艺谱系/危险账本/狩猎叙事+6条原则)
+- 施主令"拿不准问GPT": GPT-6.1-sol事实校核(prompt含页面+原文60KB, 19377tok)→10条意见→裁决采纳9修正+1误报留证(前杆"偏折"与原文breaks off at the joint不符); 依纪律confidence=medium+contested=true; 审稿记录ops/gpt_code_review_202611/hunting_gear_nansen_review.md
+- 图版: {{fig:}}占位×8(fp032/i037/i040/i043/i044a/i040重复注意/i058系)——指向images/原书页码命名图版; 页面进staging不进公开站(nav不挂), 备案后随三层nav上线
