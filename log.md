@@ -142,3 +142,21 @@
 - 影片核实: 《Kayak》ASL-0355-Video, 1987, Alaska Dept of Education出品, 讲解=Zimmerly+Heath(本站已引权威), vilda/YouTube免费公开
 - 发布: evolution/kayak-1987-transcript.md 译注页(逐字照录+页头影片溯源+权利说明); 阿留申staging影片口径节升级译文口径(时间戳引用), 三孔艇运输行政说获影片译文直接支持(t=543); 格陵兰量体第二口径译文核验(t=481"该特定社区"限定)
 - 权利: 译文=own(施主译作); 影像uncleared不转载; RIGHTS条目+PROVENANCE同步
+
+## [2026-11-15] rights勘误 | bob-shaver素材来源澄清+建造照4/4补齐
+- 施主质询纠正: Bob邮件未附建造照——两封回复的附件均为同一张Sitka博物馆Aleut艇照(482029B, 存raw/photos/bob-shaver/shaver_museum_reply*.jpg); 建造照=1114从其博文页下载(article_page_snapshot.html为证), 授权范围"the scope you have described"覆盖
+- 账实缺口修复: 1114"4张JPEG落位"实为2张(IMG_2802/IMG_2888漏下), 1115补齐; 坑=裸curl默认Accept: */*会被Squarespace CDN协商成WebP(?format=original救不了), 须加 -H 'Accept: image/jpeg'; 终态4张真JPEG全2500px
+- 教训: 素材落位后当场file类型+张数核账, 勿隔天
+
+## [2026-11-15] schema | 三层读者定位落定+图片溯源闸门+书目底座v2
+- 施主四次定位: 站点面向三层读者——①新手入门知识体系(核心集起步+按反馈逐篇扩展) ②手工建造者(具体信息+设计原则) ③进阶者(格陵兰文化/传统狩猎用品/生存智慧); 落地=公开站nav三路径切面, wiki层不新增页型, 词表新增文化类5词+入门类3词
+- 图片溯源闸门(施主定, 先于版权闸门): 图片必须可溯源(来源/作者/年代可查), 无源图不收——连私有层都不进; 溯源=收不收闸门, rights=公开闸门, 两级串联
+- 书目底座v2(ops/bibliography.md): 32本逐本标注层次归属; **结构发现=在库仅1本服务三层主战场(eastern-arctic-kayaks)**, 远征传记19本=参考层, 层1教学/层2建造/层3文化在库0/0/1本; 缺口书单已列(公版金矿: Nansen Eskimo Life 1897+First Crossing 1890+Stephens Canoe and Boat Building 1889+Rink Danish Greenland 1877, 均archive.org可直收; Cunningham 2007版权内→Tier B/外联)
+- Bob建页确认挂起至kayakpedia.cn备案(施主1115拍板: 届时正式站建页+一封信=通报+送审)
+
+## [2026-11-15] ingest | Tier A公版补采首批: Nansen Eskimo Life全文+32图版 / Beard建造基本功
+- 通道: archive.org全断(DNS污染: archive.org被解析到Facebook网段; mihomo=GitHub定向代理, 其余DIRECT直连污染), **gutenberg.org直连200**→改走Gutenberg
+- 收获: ①Nansen Eskimo Life #46972(txt 590KB+带图HTML 769KB+32张Sinding图版2MB, 全部有效)——层3首本核心书, Ch3皮艇器具/Ch4海上狩猎黄金章 ②Beard Boat-Building and Boating #44228(txt+HTML)——层2adjacent(canoe向如实标注)
+- 挂账: First Crossing英译/Stephens 1889/Rink Danish Greenland 仅archive.org→待通道恢复或施主Mac侧代下(上传通道现成)
+- 台账: RIGHTS.yaml +2条rights=public-domain(新态, SCHEMA六态→七态); PROVENANCE×2四件套; bibliography缺口书单→2转正3挂账
+- 坑: Gutenberg搜索页禁抓(封IP)——编号用云端web_search查; notes值含": "必须加引号(否则YAML拒写); 大文件-C -断点续传必带

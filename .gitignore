@@ -25,3 +25,5 @@ raw/rights/
 # 转载图文档例外: 原始扫描图(百MB级)不进git; WebP压缩转载图(handbuild 12M+pengyi 3.4M)进git——CI/worktree/部署三处完整需要
 !site-demo/docs/build/**/img/*.webp
 !site-demo/docs/build/**/img2/*.webp
+# Tier A公版书图版例外(1115): 溯源闸门证据本体, 单张<=200KB级, CI/worktree完整性需要
+!raw/books/**/images/*

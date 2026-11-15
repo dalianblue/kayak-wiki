@@ -400,12 +400,41 @@ books:
     contact: {status: none-planned}
     notes: 建议出域
 
+  eskimo-life-nansen-1893:
+    title: Eskimo Life (Eskimoliv 英译)
+    author: Fridtjof Nansen (trans. William Archer, illus. Otto Sinding)
+    author_status: deceased-1930
+    publisher: Longmans, Green & Co (London 1893)
+    pub_year: 1893
+    rights: public-domain       # Gutenberg #46972核验美版公版; 原书1893(133年前)
+    scope: core                 # 层3格陵兰文化核心书: Ch3 Kaiak与器具 / Ch4 The Eskimo at Sea / 狩猎 / 生存智慧
+    file: raw/books/eskimo-life-nansen-1893/
+    pd_cn: 已公版
+    source: gutenberg-46972
+    evidence: [raw/books/eskimo-life-nansen-1893/PROVENANCE.md]
+    notes: '层3首本核心书(1115补采); 32张Sinding图版已存images/; 同源挂账=First Crossing of Greenland英译仅在archive.org(通道挂起)'
+
+  boat-building-beard-1931:
+    title: Boat-Building and Boating
+    author: Daniel Carter Beard (自绘插图)
+    author_status: deceased-1941
+    publisher: Charles Scribner's Sons (NY 1931)
+    pub_year: 1931
+    rights: public-domain       # Gutenberg #44228核验美版公版(未续期推断, 以Gutenberg结论为准)
+    scope: adjacent             # 层2建造基本功+主线①折叠艇交叉引用(Ch4含folding canoes讨论; canoe向非kayak专著, 如实标注)
+    file: raw/books/boat-building-beard-1931/
+    pd_cn: 已公版
+    source: gutenberg-44228
+    evidence: [raw/books/boat-building-beard-1931/PROVENANCE.md]
+    notes: '1115补采; 层2公版敲门砖(在库建造书0本的第一个补充)'
+
 # ------------------------------------------------------------
 # 汇总(2026-11-13): 32书 = 0本今日可公开(全部book-uncleared起步)
 #   在世作者约21本 → book-licensed主攻(P1×9)
 #   已故作者6本 → 公有倒计时2036/2047/2052/2056/2065/2068
 #   待查1本(adrift-hunter原版年) / 出域2本(crawdads, nile)
 #   出版社全数在营 → 无"出版社倒闭型"孤儿作品
+#   1115补采: +2本public-domain(Nansen Eskimo Life 1893 / Beard 1931), gutenberg直连
 # ------------------------------------------------------------
 # ---------- 数字原生源（1113摄入, gitee镜像→GitHub双活） ----------
 
