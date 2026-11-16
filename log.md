@@ -199,3 +199,8 @@
 - GPT事实审稿必过: 40+条/六大问题(两次移民过度二分/OBS-Punuk-Birnirk单线阶梯误排/"技术外溢=动力"过度声称/未检出≠没有三处/1341事件化/地名混同+尤皮克后裔全覆盖+Inughuit误写Inglulingmuit)→裁决绝大多数采纳全页重写v1; 施主论点按审稿建议落为"使能条件"表述; contested=true(动因多解+年代双框架)
 - 产出: 预览thule-origin-preview.pdf(6页)+png×6发施主; 审稿记录ops/gpt_code_review_202611/thule_origin_review.md; 审稿脚本pipeline/gpt_review_thule_1116.py
 - 坑: ①execute_code三引号嵌套打架→改write_file落脚本 ②ops/gpt_code_review_202611目录不存在摔落盘(响应已/tmp兜底, 救回未重打API) ③index.md此前漏更4页staging条目, 本次一并补齐(总数3→7)
+
+## [2026-11-16] content | 图勒起源页v1.1加图(施主"多一点插图")
+- 加图5张(逐张可溯源, 无源图不收闸门): ①1893《Eskimo Life》卷首猎人家庭/投掷器木刻/蒙皮图版×3(PD, Sinding绘; caption如实注明=格陵兰近代形态非阿拉斯加器物) ②1890前置卷南格陵兰插页地图×1(整页渲染裁边, PD) ③自绘迁徙路线图×1(own, pipeline/draw_thule_map.py可复现, matplotlib; 两轮视觉自检: 标签纸色底防压线/实虚线错层/图例补齐/字号上调)
+- 预览渲染三坑全踩并修(pipeline/render_preview_thule.py, 坑已写回技能): ①Story无archive→file://图静默丢弃 ②archive按文件名精确匹配(fig id勿带扩展名) ③竖高图超版心→caption被静默挤丢(img height=620限高) ④另: md_to_html整段拼接产生多<html>头致内容丢失→剥壳单文档拼接
+- 验收: 5图5注全齐(文本提取断言), 9页PDF+9png发施主; confidence/contested不变
