@@ -541,6 +541,15 @@ generated_assets:
     license: CC BY-SA 4.0  # 随联邦包
     candidates: raw/assets/candidates/kayaks-flare*.png(不进git, 3张留档)
 
+  wikipedia-prehistory:
+    title: Wikipedia北极史前三篇(Thule people / Dorset culture / Paleo-Eskimo, 英文维基)
+    author: Wikipedia contributors
+    rights: cc            # CC BY-SA 4.0(+GFDL)——事实可引用; 逐字引用须署名+同方式共享; 创作层自话重写
+    scope: reference      # 图勒起源页(层3历史)取料底本, 图片零使用
+    ingested: 2026-11-16
+    evidence: ['en.wikipedia.org/wiki/Thule_people', 'en.wikipedia.org/wiki/Dorset_culture', 'en.wikipedia.org/wiki/Paleo-Eskimo', '快照raw/sources/wikipedia-prehistory/']
+    notes: 直接快照非AI转述; 内含具名研究(2010 Nature Inuk基因组/2014 Science北极古DNA/2019 Nature回迁/Mathiassen 1921-24); 图勒页锚点=本快照, confidence=medium
+
 photos:
   bob-shaver-aleut-build:
     title: Building an Aleut Kayak (建造过程照片3-4张, 分叉艏构造)

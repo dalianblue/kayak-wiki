@@ -191,3 +191,11 @@
 - 新建diy-bird-dart.md《复建一支格陵兰投掷镖》: 制作指南+历史溯源双属性, 五步结构(选料/匹配Norsaq/成形/削尖侧刺/安全)+第八节实测段占位(施主制作后回填——SCHEMA"实测"纪律首用)+第九节来源分层表(一手文献vs推断口径分列)
 - GPT三视角审稿(参数一致性/可执行性/安全)8条: 采纳7修(镖尾交叉引用纠错+展示件限定/删自拟"2-3倍"缓冲比例/安全警告补全/制作阶段安全/直纹措辞/侧刺限定/harpoon术语注即鱼叉)+留证1条(7.6m Rink出处已实读p.153原文; "鱼镖"译名全库统一)
 - 预览PDF(嵌原书图版i039)发施主
+
+## [2026-11-16] content | 图勒起源综合页staging（施主定题）
+- 施主定题+三大论点骨架: 格陵兰人起源/根在亚洲/阿拉斯加孕育图勒文化后才进格陵兰/东迁=技术外溢+追随资源, 非吃苦耐劳
+- 取料: 维基三篇直取(action API走代理, 非AI转述)→raw/sources/wikipedia-prehistory/ + PROVENANCE + RIGHTS登记rights=cc; Nansen Ch.I起源章实读(1893年已推"白令海峡美洲一侧→逐段东迁")
+- 写页pipeline/staging/thule-origin.md(综合页, 叙事化散文, {{fig:map-thule-migration}}自绘地图占位)
+- GPT事实审稿必过: 40+条/六大问题(两次移民过度二分/OBS-Punuk-Birnirk单线阶梯误排/"技术外溢=动力"过度声称/未检出≠没有三处/1341事件化/地名混同+尤皮克后裔全覆盖+Inughuit误写Inglulingmuit)→裁决绝大多数采纳全页重写v1; 施主论点按审稿建议落为"使能条件"表述; contested=true(动因多解+年代双框架)
+- 产出: 预览thule-origin-preview.pdf(6页)+png×6发施主; 审稿记录ops/gpt_code_review_202611/thule_origin_review.md; 审稿脚本pipeline/gpt_review_thule_1116.py
+- 坑: ①execute_code三引号嵌套打架→改write_file落脚本 ②ops/gpt_code_review_202611目录不存在摔落盘(响应已/tmp兜底, 救回未重打API) ③index.md此前漏更4页staging条目, 本次一并补齐(总数3→7)

@@ -1,7 +1,7 @@
 # 皮划艇知识库 Index
 
 > 内容目录。每页一行：wikilink + 一句话摘要。开工先读此页找相关页面。
-> Last updated: 2026-11-13 | Total pages: 3
+> Last updated: 2026-11-16 | Total pages: 7（3 wiki层 + 4 staging）
 
 ## Concepts
 
@@ -11,7 +11,10 @@
 
 ## Comparisons
 
-（暂无——Phase 3 多书对照后填充；本项目核心增量）
+- [[thule-origin]] — 格陵兰因纽特人起源：白令走廊两次主要扩展、阿拉斯加孵化图勒文化、技术使能式东迁；多塞特替换、Tuniit与Skræling、图勒命名史（源：维基三篇快照+Nansen Ch.I；GPT审稿40+条裁决重写, staging）
+- [[hunting-day-boas]] — 狩猎一日：跟着Boas出海（Nansen Ch.IV叙事页, staging）
+- [[hunting-gear-nansen]] — 装备系统：技术规格参考（Nansen Ch.III-IV, staging）
+- [[diy-bird-dart]] — 复建一支格陵兰投掷镖（制作指南+来源分层, staging）
 
 ## Entities
 
