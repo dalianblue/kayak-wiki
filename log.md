@@ -204,3 +204,11 @@
 - 加图5张(逐张可溯源, 无源图不收闸门): ①1893《Eskimo Life》卷首猎人家庭/投掷器木刻/蒙皮图版×3(PD, Sinding绘; caption如实注明=格陵兰近代形态非阿拉斯加器物) ②1890前置卷南格陵兰插页地图×1(整页渲染裁边, PD) ③自绘迁徙路线图×1(own, pipeline/draw_thule_map.py可复现, matplotlib; 两轮视觉自检: 标签纸色底防压线/实虚线错层/图例补齐/字号上调)
 - 预览渲染三坑全踩并修(pipeline/render_preview_thule.py, 坑已写回技能): ①Story无archive→file://图静默丢弃 ②archive按文件名精确匹配(fig id勿带扩展名) ③竖高图超版心→caption被静默挤丢(img height=620限高) ④另: md_to_html整段拼接产生多<html>头致内容丢失→剥壳单文档拼接
 - 验收: 5图5注全齐(文本提取断言), 9页PDF+9png发施主; confidence/contested不变
+
+## [2026-11-16] content | Norsaq复刻页staging(施主定题: DIY复刻norsaq和标枪/材料/尺寸/现代替代/箭头装填)
+- 定位: diy-bird-dart姊妹页(镖已立, 板补位), Related互链闭环; 施主真norsaq(窄端孔,暂判双孔型)为基准件, §二七项量取清单+实测回填占位
+- 取料: Nansen Ch.III投掷板段全文实读(红漂流木/14件藏42-52cm/宽端7-8cm厚1.5cm/两形制+ernangnak第三型/掷法/三地推断); Rink检索无制作细节(7.6m沿用姊妹页核验)
+- GPT制作咨询(93s, 840tok入): 沟槽10-14mm浅圆底/双孔孔径=榫根+0.5-1.0mm/孔位比例/白蜡木首选替材/MDF竹材不建议/装填序列/失败三模式——全套自标确定性, 存norsaq_consult.md
+- GPT三视角审稿(105s, 16555tok): ~30条, 裁决采纳绝大多数全页重写v1.1("1893亲手实测"→"书中记载所藏"/三地推断归作者/适用条件补回/安全真前置+资格阶梯/测绘vs匹配分界/试配杆≠等径模板/手部净空+儿童+运输+油布自热补齐/来源分层拆分); 留证1: Rink p.153系1115会话实读
+- 姊妹页diy-bird-dart同步v1.2: 槽宽口径两页未统一验证注明+轻甩终检改"静态先行受控验证"(审稿交叉发现)
+- 通用渲染器pipeline/render_preview.py落成(--md/--imgdir参数化, 修技能脚本三坑可复用); 预览6页2图2注全齐; 审稿记录ops/gpt_code_review_202611/diy_norsaq_page_review.md
