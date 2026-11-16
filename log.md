@@ -218,3 +218,8 @@
 - 收获7图全Tier A(PD/No restrictions): DPLA Lindbergh藏Greenland皮划艇装备扫描9页选5(投掷板+镖同框带比例尺p2/板形方孔p9/镖头特写p3,p5) + RMG 1854 Inglefield历史实景照 + SMK 1859-60 Abraham格陵兰木刻(含kastetræ)
 - 台账: PROVENANCE(溯源表+使用纪律) + RIGHTS digital_sources(museum-norsaq-photos, rights=public-domain)
 - 意外收获: p9板形方孔与施主实物双孔型互证; p2比例尺=工程尺寸独立旁证; Abraham版画=格陵兰人自绘1859-60装备实录
+
+## [2026-11-16] content | diy-norsaq v1.2 并入馆藏照片组(施主认可后)
+- §一加DPLA双孔型板形图(方孔=接口家族旁证, 与施主实物判别互证); §四尺寸表加"同框比例旁证"行(板长≈镖长1/4弱, 照片观察口径)+同框图; 来源分层补"一手实物影像"行; sources补PROVENANCE
+- 镖头特写p3/p5留姊妹页《投掷镖》后续更新; 审稿口径(v1.1 confidence/contested)延续
+- 预览7页4图4注全齐(文本断言核验)
