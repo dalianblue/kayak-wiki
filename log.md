@@ -212,3 +212,9 @@
 - GPT三视角审稿(105s, 16555tok): ~30条, 裁决采纳绝大多数全页重写v1.1("1893亲手实测"→"书中记载所藏"/三地推断归作者/适用条件补回/安全真前置+资格阶梯/测绘vs匹配分界/试配杆≠等径模板/手部净空+儿童+运输+油布自热补齐/来源分层拆分); 留证1: Rink p.153系1115会话实读
 - 姊妹页diy-bird-dart同步v1.2: 槽宽口径两页未统一验证注明+轻甩终检改"静态先行受控验证"(审稿交叉发现)
 - 通用渲染器pipeline/render_preview.py落成(--md/--imgdir参数化, 修技能脚本三坑可复用); 预览6页2图2注全齐; 审稿记录ops/gpt_code_review_202611/diy_norsaq_page_review.md
+
+## [2026-11-16] ingest | 博物馆Norsaq照片组入库(施主令"找博物馆网站的图")
+- 通道: RMG/Hood/SPRI站点直抓(RMG对象图202px可取, Hood JS图取不到→外联候选, SPRI SSL败) → 转Wikimedia Commons API(合规UA+代理; 教训: Mozilla通用UA被403, 须描述性UA) 拿PD版高清
+- 收获7图全Tier A(PD/No restrictions): DPLA Lindbergh藏Greenland皮划艇装备扫描9页选5(投掷板+镖同框带比例尺p2/板形方孔p9/镖头特写p3,p5) + RMG 1854 Inglefield历史实景照 + SMK 1859-60 Abraham格陵兰木刻(含kastetræ)
+- 台账: PROVENANCE(溯源表+使用纪律) + RIGHTS digital_sources(museum-norsaq-photos, rights=public-domain)
+- 意外收获: p9板形方孔与施主实物双孔型互证; p2比例尺=工程尺寸独立旁证; Abraham版画=格陵兰人自绘1859-60装备实录

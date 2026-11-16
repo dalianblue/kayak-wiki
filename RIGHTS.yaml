@@ -550,6 +550,15 @@ generated_assets:
     evidence: ['en.wikipedia.org/wiki/Thule_people', 'en.wikipedia.org/wiki/Dorset_culture', 'en.wikipedia.org/wiki/Paleo-Eskimo', '快照raw/sources/wikipedia-prehistory/']
     notes: 直接快照非AI转述; 内含具名研究(2010 Nature Inuk基因组/2014 Science北极古DNA/2019 Nature回迁/Mathiassen 1921-24); 图勒页锚点=本快照, confidence=medium
 
+  museum-norsaq-photos:
+    title: 博物馆/公共收藏 Norsaq与镖 照片组(DPLA Lindbergh藏9页选5 + RMG 1854历史照 + SMK 1859-60版画)
+    author: DPLA扫描集(No restrictions) / Inglefield 1854(PD, 经Commons) / Abraham 1859-60(PD, SMK Open开放图)
+    rights: public-domain  # Commons extmetadata核验: No restrictions/Public domain——Tier A可公开直收, 用须按Commons文件页署名
+    scope: reference       # diy-norsaq页配图候选+工程起点旁证(p2带比例尺); 快照raw/sources/museum-norsaq-photos/
+    ingested: 2026-11-16
+    evidence: ['commons.wikimedia.org File:Harpoon_and_Throwing_Board...Lindbergh(DPLA ac628bbb)', 'commons.wikimedia.org File:Unidentified_Inuit_man_with_a_kayak_RMG_G04267', 'open.smk.dk/artwork/image/KKS1971-57', 'rmg.co.uk/collections/objects/rmgc-object-386090(编目说明: harpoon with norsaq attached)']
+    notes: 施主1116令"找博物馆网站的图"直收; p9板形方孔与施主实物双孔型互证; DPLA组馆藏归属/年代待考(编目未标); Hood Museum 160.12.14520(JS图, 待外联)
+
 photos:
   bob-shaver-aleut-build:
     title: Building an Aleut Kayak (建造过程照片3-4张, 分叉艏构造)
